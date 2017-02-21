@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DataRowConfiguration ReportTitle="Market Risk Overview">
+    <ColumnTitles>Market Risk Overview</ColumnTitles>
+    <ColumnTitles>Parametric VaR</ColumnTitles>
+    <ColumnTitles>Monte Carlo VaR</ColumnTitles>
+    <ColumnTitles>Exp Short Fall</ColumnTitles>
+    <ColumnTitles>Component VaR</ColumnTitles>
+    <ColumnTitles>Incremental VaR</ColumnTitles>
+    <ColumnTitles>Description</ColumnTitles>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnTypes>STRING</ColumnTypes>
+    <ColumnTypes>DOUBLE</ColumnTypes>
+    <ColumnTypes>DOUBLE</ColumnTypes>
+    <ColumnTypes>DOUBLE</ColumnTypes>
+    <ColumnTypes>DOUBLE</ColumnTypes>
+    <ColumnTypes>DOUBLE</ColumnTypes>
+    <ColumnTypes>STRING</ColumnTypes>
+</DataRowConfiguration>

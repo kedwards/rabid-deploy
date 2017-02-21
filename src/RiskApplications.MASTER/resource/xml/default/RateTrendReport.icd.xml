@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SavedConfiguration>
+	<Configuration ParentName="RateTrendReport" Name="RTR: Default">
+		<ConfigurationFields FieldType="DATE_SEQ">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="-10d" Key="Start" />
+				<ConfigurationValueItems Value="0d" Key="End" />
+				<ConfigurationValueItems Value="1d" Key="Increment" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<ConfigurationFields FieldType="USER_DEFINED"
+			FieldName="Decimal Places">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="6" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<Output>
+			<OutputTypes>CRYSTAL_VIEW</OutputTypes>
+		</Output>
+	</Configuration>
+</SavedConfiguration>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DataRowConfiguration ReportTitle="Rate Trend Report">
+	<ColumnTitles>Index</ColumnTitles>
+	<ColumnTitles>Gpt ID</ColumnTitles>
+	<ColumnTitles>Input Type</ColumnTitles>
+	<ColumnTitles>Bid/Mid/Offer</ColumnTitles>
+	<ColumnTitles>Closing Dataset</ColumnTitles>
+	<ColumnTitles>Gpt Date</ColumnTitles>
+	<ColumnTitles>Gpt Date JD</ColumnTitles>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>false</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>false</ColumnVisible>
+	<ColumnTypes>STRING</ColumnTypes>
+	<ColumnTypes>INT</ColumnTypes>
+	<ColumnTypes>STRING</ColumnTypes>
+	<ColumnTypes>STRING</ColumnTypes>
+	<ColumnTypes>STRING</ColumnTypes>
+	<ColumnTypes>STRING</ColumnTypes>
+	<ColumnTypes>INT</ColumnTypes>
+</DataRowConfiguration>

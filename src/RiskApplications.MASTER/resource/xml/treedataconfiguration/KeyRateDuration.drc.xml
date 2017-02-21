@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DataRowConfiguration ReportTitle="Key Rate Duration">
+    <ColumnTitles>Deal Number</ColumnTitles>
+    <ColumnTitles>Cflow Date</ColumnTitles>
+    <ColumnTitles>Date</ColumnTitles>
+    <ColumnTitles>Current Disc Factor</ColumnTitles>
+    <ColumnTitles>Disc Factor</ColumnTitles>
+    <ColumnTitles>Discounted Cflow</ColumnTitles>
+    <ColumnTitles>Duration</ColumnTitles>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>false</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnTypes>STRING</ColumnTypes>
+    <ColumnTypes>DATE</ColumnTypes>
+    <ColumnTypes>INT</ColumnTypes>
+    <ColumnTypes>DOUBLE</ColumnTypes>
+    <ColumnTypes>DOUBLE</ColumnTypes>
+    <ColumnTypes>DOUBLE</ColumnTypes>
+    <ColumnTypes>DOUBLE_6</ColumnTypes>
+</DataRowConfiguration>

@@ -1,0 +1,9 @@
+HDR,SIM_RES_CFG_MAP,result_config_group,result_type
+REC,SIM_RES_CFG_MAP,RiskPak,RP Credit Valuation Adj By Deal
+#
+HDR,USER_RES_DEF,result_name,result_class,result_enumeration,requires_prior_results,processing_script,dw_user_table_name,active_result
+REC,USER_RES_DEF,RP Credit Valuation Adj By Deal,General,RISKPAK_RESULT_CVA_BY_DEAL,No,CreditValuationAdjByDeal, ,Yes
+# 
+HDR,USER_RES_DEPENDS,result_name,required_result_type
+REC,USER_RES_DEPENDS,RP Credit Valuation Adj By Deal,RP Credit Valuation Adj By Leg
+# 

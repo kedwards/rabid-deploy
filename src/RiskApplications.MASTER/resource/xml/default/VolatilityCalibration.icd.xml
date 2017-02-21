@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SavedConfiguration>
+	<Configuration ParentName="VolatilityCalibration" Name="VLC: Default">
+		<ConfigurationFields FieldType="USER_DEFINED"
+			FieldName="Perturbation">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="0.01" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<ConfigurationFields FieldType="USER_DEFINED"
+			FieldName="Reset Perturbation">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="0.0001" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<ConfigurationFields FieldType="MAX_ITER">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="500" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<ConfigurationFields FieldType="USER_DEFINED"
+			FieldName="Reset Iterations">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="100" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<ConfigurationFields FieldType="USER_DEFINED"
+			FieldName="Stop Reset Iterations">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="500" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<ConfigurationFields FieldType="USER_DEFINED"
+			FieldName="Epsilon (Total Error)">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="0.0000001" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<ConfigurationFields FieldType="USER_DEFINED"
+			FieldName="Epsilon (Algorithm Convergence)">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="0.0000001" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<ConfigurationFields FieldType="RANDOM_NUM_SEED">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="0" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<Output>
+			<OutputTypes>CRYSTAL_VIEW</OutputTypes>
+		</Output>
+	</Configuration>
+</SavedConfiguration>

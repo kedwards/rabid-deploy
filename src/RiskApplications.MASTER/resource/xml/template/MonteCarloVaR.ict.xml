@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ConfigurationTemplate ParentName="MonteCarloVaR"
+	Version="1">
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Position" FieldType="QUERY" FieldName="Query" />
+<!-- // Used for RAAS Prototype
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Position" FieldType="EXTRACT_FILE" FieldName="Deal Extract" />
+-->
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Reval Settings" FieldType="SAVE_SIM_DEF" FieldName="Save Sim Def"
+		Required="false" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Reval Settings" FieldType="REVAL_SERVICE" FieldName="Reval Service" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Reval Settings" FieldType="MARKET_DATA_TYPE" FieldName="Market Data" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Reval Settings" FieldType="SCEN_TEMPLATE" FieldName="Scenario Template"
+		Required="false" />
+
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="VaR Settings" FieldType="VAR_DEF" FieldName="VaR Definition" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="VaR Settings" FieldType="SUM_GROUPS" FieldName="Summary Group(s)"
+		Required="false" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="VaR Settings" FieldType="NUM_BUCKETS" FieldName="Number of Buckets"
+		ValueType="INTEGER" MinValue="3" MaxValue="2147483647" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="VaR Settings" FieldType="RISK_FACTOR_MOD_SOURCE" FieldName="Risk Factor Mod Source" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="VaR Settings" FieldType="DEAL_VALUATION_METHOD" FieldName="Deal Valuation Method" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="VaR Settings" FieldType="CORRELATION_MATRIX_TYPE"
+		FieldName="VaR Correlation Matrix" />
+
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Risk Factor Mod Source (Random)" FieldType="HOLDING_PERIOD"
+		FieldName="Holding Period" ValueType="DATE" MinValue="0" Required="false" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Risk Factor Mod Source (Random)" FieldType="RANDOM_NUM_SEED"
+		FieldName="Random Number Seed" ValueType="INTEGER" MinValue="0"
+		MaxValue="4294967295" Required="false" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Risk Factor Mod Source (Random)" FieldType="NUM_TRIALS"
+		FieldName="Number of Trials" ValueType="INTEGER" MinValue="1"
+		MaxValue="2147483647" Required="false" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Risk Factor Mod Source (Random)" FieldType="INC_SIGMA_DRIFT"
+		FieldName="Lognormal Risk Factors" Required="false" />
+
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Risk Factor Mod Source (File)" FieldType="MOD_SOURCE_FILE"
+		FieldName="Modification Source File" Required="false" />
+
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Risk Factor Mod Source (Historical)" FieldType="HISTORICAL_SIM_DATASET"
+		FieldName="Historical Sim Dataset" Required="false" />
+
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Risk Factor Mod Output (File)" FieldType="MOD_OUTPUT_FILE"
+		FieldName="Save Modification Output File" Required="false" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Risk Factor Mod Output (File)" FieldType="CONF_LEVEL"
+		FieldName="Confidence Level(%)" ValueType="DOUBLE" MinValue="1"
+		MaxValue="100" Required="false" />
+
+</ConfigurationTemplate>

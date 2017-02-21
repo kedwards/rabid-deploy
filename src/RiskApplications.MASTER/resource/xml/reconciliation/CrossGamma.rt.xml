@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ReconciliationTemplate Name="CrossGamma"
+	Version="1">
+	<ApplicableResults>218</ApplicableResults>
+	<ApplicableResults>293</ApplicableResults>
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Reconciliation Result" FieldType="CALCULATION_CCY"
+		FieldName="Calculation Currency" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Reconciliation Result" FieldType="SENSITIVITY_EPSILON"
+		FieldName="Sensitivity Epsilon" ValueType="DOUBLE" MinValue="0"
+		MaxValue="0.1" />
+	<ConfigurationRequirements Occurrences="2000"
+		GroupName="Reconciliation Result" FieldType="INDEX_RULE_SET"
+		FieldName="Index RuleSet(s)" />
+</ReconciliationTemplate>

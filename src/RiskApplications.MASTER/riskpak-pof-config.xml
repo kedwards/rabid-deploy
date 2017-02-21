@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pof-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns="http://xmlns.oracle.com/coherence/coherence-pof-config"
+   xsi:schemaLocation="http://xmlns.oracle.com/coherence/coherence-pof-config coherence-pof-config.xsd">
+   <user-type-list>
+        <include>java-pof-config.xml</include>
+		<include>coherence-ads-pof-config.xml</include>
+		<include>ods-java-pof-config.xml</include>
+	</user-type-list>
+</pof-config>

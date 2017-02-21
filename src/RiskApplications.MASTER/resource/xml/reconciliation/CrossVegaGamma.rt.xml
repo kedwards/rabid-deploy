@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ReconciliationTemplate Name="CrossVegaGamma"
+	Version="1">
+	<ApplicableResults>232</ApplicableResults>
+	<ApplicableResults>294</ApplicableResults>
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Reconciliation Result" FieldType="COMP_VEGA_FOR_VOL_ADJUSTMENTS"
+		FieldName="Compute for Vol Adjs" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Reconciliation Result" FieldType="SENSITIVITY_EPSILON"
+		FieldName="Sensitivity Epsilon" ValueType="DOUBLE" MinValue="0"
+		MaxValue="0.1" />
+	<ConfigurationRequirements Occurrences="2000"
+		GroupName="Reconciliation Result" FieldType="VOLATILITY_RULE_SET"
+		FieldName="Volatility RuleSet(s)" />
+</ReconciliationTemplate>
+

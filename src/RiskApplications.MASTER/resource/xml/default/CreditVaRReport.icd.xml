@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SavedConfiguration>
+	<Configuration ParentName="CreditVaRReport" Name="CVR: Default">
+		<ConfigurationFields FieldType="REVAL_SERVICE">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="-1" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<ConfigurationFields FieldType="MARKET_DATA_TYPE">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="-1" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<ConfigurationFields FieldType="USER_DEFINED"
+			FieldName="Expected Recovery Rate (%)">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="60" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<ConfigurationFields FieldType="USER_DEFINED"
+			FieldName="Std Dev of Recovery (%)">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="25" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<ConfigurationFields FieldType="USER_DEFINED"
+			FieldName="Number of Trials (Credit)">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="5000" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<ConfigurationFields FieldType="CONF_LEVEL">
+			<ConfigurationValues Name="">
+				<ConfigurationValueItems Value="95.0" Key="" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<ConfigurationFields FieldType="NETTING_TYPE">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="Full" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+
+		<ConfigurationFields FieldType="USER_DEFINED"
+			FieldName="Holding Period">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="1" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<ConfigurationFields FieldType="RANDOM_NUM_SEED">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="0" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<ConfigurationFields FieldType="NUM_TRIALS">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="200" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<ConfigurationFields FieldType="DEAL_VALUATION_METHOD">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="0" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+
+		<ConfigurationFields FieldType="NUM_BUCKETS">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="50" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<Output>
+			<OutputTypes>CRYSTAL_VIEW</OutputTypes>
+		</Output>
+	</Configuration>
+</SavedConfiguration>

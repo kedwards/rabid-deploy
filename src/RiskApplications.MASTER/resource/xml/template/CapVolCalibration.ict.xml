@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ConfigurationTemplate ParentName="CapVolCalibration"
+	Version="1">
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Volatility Calibration" FieldType="VOLATILITY_CALIBRATION_INFO"
+		FieldName="Volatility Calibration" Required="true" />
+
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Volatility Calibration" FieldType="MAX_ITER" FieldName="Max Iterations"
+		ValueType="INTEGER" MinValue="0" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Volatility Calibration" FieldType="USER_DEFINED" FieldName="Min Threshold"
+		ValueType="DOUBLE" MinValue="0" ToolTip="CONFIG_MIN_THRESHOLD" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Volatility Calibration" FieldType="USER_DEFINED" FieldName="Max Threshold"
+		ValueType="DOUBLE" MinValue="0" ToolTip="CONFIG_MAX_THRESHOLD" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Volatility Calibration" FieldType="USER_DEFINED" FieldName="Epsilon"
+		ValueType="DOUBLE" MinValue="0" ToolTip="CONFIG_TOLERANCE" />
+
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Volatility Options (Loading)" FieldType="CURVE_DATE"
+		FieldName="Curve Date" Required="true" />
+
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Volatility Options (Saving)" FieldType="VOLATILITY_DATA_SAVE_OPTIONS"
+		FieldName="Vol Data Save Options" Required="true" />
+</ConfigurationTemplate>

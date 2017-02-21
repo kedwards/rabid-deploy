@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DataRowConfiguration ReportTitle="Market Data Outlier">
+    <ColumnTitles>Gpt Label</ColumnTitles>
+    <ColumnTitles>Gpt Date</ColumnTitles>
+    <ColumnTitles>Gpt Julian Date</ColumnTitles>
+    <ColumnTitles>Day1</ColumnTitles>
+    <ColumnTitles>Day2</ColumnTitles>
+    <ColumnTitles>Difference</ColumnTitles>
+    <ColumnTitles>Difference(%)</ColumnTitles>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>false</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnTypes>STRING</ColumnTypes>
+    <ColumnTypes>DATE</ColumnTypes>
+    <ColumnTypes>INT</ColumnTypes>
+    <ColumnTypes>DOUBLE_4</ColumnTypes>
+    <ColumnTypes>DOUBLE_4</ColumnTypes>
+    <ColumnTypes>DOUBLE_4</ColumnTypes>
+    <ColumnTypes>DOUBLE_2</ColumnTypes>    
+</DataRowConfiguration>

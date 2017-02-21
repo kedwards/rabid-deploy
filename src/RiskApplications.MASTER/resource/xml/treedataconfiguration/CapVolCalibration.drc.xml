@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DataRowConfiguration ReportTitle="Caplet Volatility Calibration">
+	<ColumnTitles>Maturity</ColumnTitles>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnTypes>STRING</ColumnTypes>
+</DataRowConfiguration>

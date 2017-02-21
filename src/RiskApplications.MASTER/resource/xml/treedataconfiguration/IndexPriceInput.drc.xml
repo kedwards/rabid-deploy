@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DataRowConfiguration ReportTitle="Index Price Input">
+    <ColumnTitles>End Date</ColumnTitles>
+    <ColumnTitles>End Date JD</ColumnTitles>
+    <ColumnTitles>Gpt Label</ColumnTitles>
+    <ColumnTitles>Market Data</ColumnTitles>
+    <ColumnTitles>Input</ColumnTitles>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>false</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnTypes>STRING</ColumnTypes>
+    <ColumnTypes>INT</ColumnTypes>
+    <ColumnTypes>STRING</ColumnTypes>
+    <ColumnTypes>STRING</ColumnTypes>
+    <ColumnTypes>DOUBLE</ColumnTypes>
+</DataRowConfiguration>

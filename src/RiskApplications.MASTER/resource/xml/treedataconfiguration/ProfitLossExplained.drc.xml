@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DataRowConfiguration ReportTitle="Profit &amp; Loss Explained">
+	<ColumnTitles>Portfolio Details</ColumnTitles>
+	<ColumnTitles>Total MTM</ColumnTitles>
+	<ColumnTitles>DTD Change</ColumnTitles>
+	<ColumnTitles>Explained Change</ColumnTitles>
+	<ColumnTitles>Unexplained Change</ColumnTitles>
+	<ColumnTitles>Base New Trade P&amp;L</ColumnTitles>
+	<ColumnTitles>Base Cost of Carry</ColumnTitles>
+	<ColumnTitles>Base Impact of Delta</ColumnTitles>
+	<ColumnTitles>Base Impact of Gamma</ColumnTitles>
+	<ColumnTitles>Base Impact of Vega</ColumnTitles>
+	<ColumnTitles>Base Impact of Vega Gamma</ColumnTitles>
+	<ColumnTitles>Base Impact of Amendments</ColumnTitles>
+	<ColumnTitles>Base Impact of Cancellations</ColumnTitles>
+	<ColumnTitles>Base Impact of Resets</ColumnTitles>
+	<ColumnTitles>Base Impact of Cross Gamma</ColumnTitles>
+	<ColumnTitles>Base Impact of Cross Vega Gamma</ColumnTitles>
+	<ColumnTitles>Base Impact of Closeouts</ColumnTitles>
+	<ColumnTitles>Base Impact of Option Exercise</ColumnTitles>
+	<ColumnTitles>Base Impact of Volume Change</ColumnTitles>
+	<ColumnTitles>Base Realized PNL Due to Closeouts</ColumnTitles>
+	<ColumnTitles>Base Realized PNL Due to Margining</ColumnTitles>
+	<ColumnTitles>Base Impact of Spot FX</ColumnTitles>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnTypes>STRING</ColumnTypes>
+	<ColumnTypes>DOUBLE</ColumnTypes>
+	<ColumnTypes>DOUBLE</ColumnTypes>
+	<ColumnTypes>DOUBLE</ColumnTypes>
+	<ColumnTypes>DOUBLE</ColumnTypes>
+	<ColumnTypes>DOUBLE</ColumnTypes>
+	<ColumnTypes>DOUBLE</ColumnTypes>
+	<ColumnTypes>DOUBLE</ColumnTypes>
+	<ColumnTypes>DOUBLE</ColumnTypes>
+	<ColumnTypes>DOUBLE</ColumnTypes>
+	<ColumnTypes>DOUBLE</ColumnTypes>
+	<ColumnTypes>DOUBLE</ColumnTypes>
+	<ColumnTypes>DOUBLE</ColumnTypes>
+	<ColumnTypes>DOUBLE</ColumnTypes>
+	<ColumnTypes>DOUBLE</ColumnTypes>
+	<ColumnTypes>DOUBLE</ColumnTypes>
+	<ColumnTypes>DOUBLE</ColumnTypes>
+	<ColumnTypes>DOUBLE</ColumnTypes>
+	<ColumnTypes>DOUBLE</ColumnTypes>
+	<ColumnTypes>DOUBLE</ColumnTypes>
+	<ColumnTypes>DOUBLE</ColumnTypes>
+	<ColumnTypes>DOUBLE</ColumnTypes>
+</DataRowConfiguration>

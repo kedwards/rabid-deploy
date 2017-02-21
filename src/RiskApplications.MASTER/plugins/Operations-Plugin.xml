@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Plugin Library="ra-report-operations.jar" Package="com.olf.risk.service.plugin.report.operations"
+	Name="Operations">
+	<ItemList
+		ClassName="com.olf.risk.service.plugin.report.operations.CreditMarketLimit"
+		SupportedThroughVersion="1" />
+	<ItemList
+		ClassName="com.olf.risk.service.plugin.report.operations.EnteredTradeListing"
+		SupportedThroughVersion="1" />
+	<ItemList
+		ClassName="com.olf.risk.service.plugin.report.operations.EventDiaryReport"
+		SupportedThroughVersion="1" />
+	<ItemList
+		ClassName="com.olf.risk.service.plugin.report.operations.HistoricPriceInput"
+		SupportedThroughVersion="1" />
+	<ItemList
+		ClassName="com.olf.risk.service.plugin.report.operations.IndexPriceInput"
+		SupportedThroughVersion="1" />
+	<ItemList
+		ClassName="com.olf.risk.service.plugin.report.operations.MarketDataOutlier"
+		SupportedThroughVersion="1" />
+	<ItemList
+		ClassName="com.olf.risk.service.plugin.report.operations.RateTrendReport"
+		SupportedThroughVersion="1" />
+</Plugin>

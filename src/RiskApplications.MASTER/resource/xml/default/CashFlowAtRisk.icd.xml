@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SavedConfiguration>
+	<Configuration ParentName="CashFlowAtRisk" Name="CFR: Default">
+		<ConfigurationFields FieldType="REVAL_SERVICE">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="-1" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<ConfigurationFields FieldType="MARKET_DATA_TYPE">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="-1" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<ConfigurationFields FieldType="GROUPING_HIERARCHY">
+			<ConfigurationValues Name="Flat">
+				<ConfigurationValueItems Value="6" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<ConfigurationFields FieldType="CONF_LEVEL">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="95.0" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<ConfigurationFields FieldType="NUM_TRIALS">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="200" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<ConfigurationFields FieldType="NUM_BUCKETS">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="50" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<ConfigurationFields FieldType="HOLDING_PERIOD">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="1d" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<ConfigurationFields FieldType="RANDOM_NUM_SEED">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="0" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<ConfigurationFields FieldType="DEAL_VALUATION_METHOD">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="0" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<ConfigurationFields FieldType="INC_SIGMA_DRIFT">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="1" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<ConfigurationFields FieldType="CURRENCY">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="0" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<Output>
+			<OutputTypes>CRYSTAL_VIEW</OutputTypes>
+		</Output>
+	</Configuration>
+</SavedConfiguration>

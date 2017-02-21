@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SavedConfiguration>
+	<Configuration xsi:type="ShockConfiguration"
+		ParentName="BasicStepShock" Name="BSS: Default" ElementType="Index"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+		<ConfigurationFields FieldType="USER_DEFINED"
+			FieldName="Shock Value">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="1.0" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<ConfigurationFields FieldType="USER_DEFINED"
+			FieldName="Step Size">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="0.1" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+	</Configuration>
+</SavedConfiguration>

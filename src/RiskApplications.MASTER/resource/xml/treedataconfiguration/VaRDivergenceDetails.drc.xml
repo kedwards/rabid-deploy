@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DataRowConfiguration ReportTitle="VaR Divergence Details">
+	<ColumnTitles>Index/Grid Point</ColumnTitles>
+	<ColumnTitles>End Date</ColumnTitles>
+	<ColumnTitles>Delta</ColumnTitles>
+	<ColumnTitles>Gamma</ColumnTitles>
+	<ColumnTitles>VaR</ColumnTitles>
+	<ColumnTitles>Impact</ColumnTitles>
+	<ColumnTitles>Volatility</ColumnTitles>
+	<ColumnTitles>Divergence</ColumnTitles>
+	<ColumnTitles>Return</ColumnTitles>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnTypes>STRING</ColumnTypes>
+	<ColumnTypes>STRING</ColumnTypes>
+	<ColumnTypes>DOUBLE_0</ColumnTypes>
+	<ColumnTypes>DOUBLE_0</ColumnTypes>
+	<ColumnTypes>DOUBLE_0</ColumnTypes>
+	<ColumnTypes>DOUBLE_2</ColumnTypes>
+	<ColumnTypes>DOUBLE_4</ColumnTypes>
+	<ColumnTypes>DOUBLE_2</ColumnTypes>
+	<ColumnTypes>DOUBLE_4</ColumnTypes>
+</DataRowConfiguration>

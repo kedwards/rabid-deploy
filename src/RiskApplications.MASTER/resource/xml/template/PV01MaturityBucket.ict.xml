@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ConfigurationTemplate ParentName="PV01MaturityBucket"
+	Version="1">
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Position" FieldType="QUERY" FieldName="Query" />
+
+	<ConfigurationRequirements Occurrences="2000"
+		GroupName="Date Sequence(s)" FieldType="DATE_SEQ" FieldName="Date Sequence" />
+
+	<ConfigurationRequirements Occurrences="2000"
+		GroupName="Index Filter(s)" FieldType="INDEX_RULE_SET" FieldName="Index RuleSet(s)"
+		Required="false" />
+
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Reval Settings" FieldType="SAVE_SIM_DEF" FieldName="Save Sim Def"
+		Required="false" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Reval Settings" FieldType="REVAL_SERVICE" FieldName="Reval Service" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Reval Settings" FieldType="MARKET_DATA_TYPE" FieldName="Market Data" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Reval Settings" FieldType="SCEN_TEMPLATE" FieldName="Scenario Template"
+		Required="false" />
+
+	<ConfigurationRequirements Occurrences="2147483647"
+		MaxValue="1.0" GroupName="Calculation Settings" FieldType="GROUPING_HIERARCHY"
+		FieldName="Summary Group(s)" Required="false" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Calculation Settings" FieldType="TIME_BUCKET" FieldName="Time Bucket" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Calculation Settings" FieldType="DELTA_SOURCE" FieldName="Delta Source" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Calculation Settings" FieldType="CURVE_SHIFT" FieldName="Curve Shift" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Calculation Settings" FieldType="CURRENCY" FieldName="Currency" />
+
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Shock Scenario" FieldType="CURVE_SHOCKS" FieldName="Shock Scenario"
+		Required="false" />
+</ConfigurationTemplate>

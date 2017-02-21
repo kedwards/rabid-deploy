@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ShockTemplate Name="StandardDeviation" Version="1">
+	<ApplicableElements>VarDefinition</ApplicableElements>
+	<ConfigurationRequirements Occurrences="2000"
+		GroupName="Index RuleSet(s)" FieldType="INDEX_RULE_SET" FieldName="Index Rule Set(s)"
+		Required="false" />
+
+	<ConfigurationRequirements Occurrences="2000"
+		GroupName="Volatility RuleSet(s)" FieldType="VOLATILITY_RULE_SET"
+		FieldName="Volatility Rule Set(s)" Required="false" />
+
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Shock Inputs" FieldType="USER_DEFINED" FieldName="Volatility Scaling Factor"
+		ValueType="DOUBLE" Required="true" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Shock Inputs" FieldType="USER_DEFINED" FieldName="Standard Deviations"
+		ValueType="DOUBLE" Required="true" />
+</ShockTemplate>

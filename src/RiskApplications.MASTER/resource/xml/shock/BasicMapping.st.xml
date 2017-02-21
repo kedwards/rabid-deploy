@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ShockTemplate Name="BasicMapping" Mapping="true" Version="1">
+	<ApplicableElements>Index</ApplicableElements>
+	<ApplicableElements>Volatility</ApplicableElements>
+	<ApplicableElements>Correlation</ApplicableElements>
+</ShockTemplate>

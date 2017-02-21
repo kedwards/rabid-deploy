@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ConfigurationTemplate ParentName="CreditValuationAdjustment"
+	Version="2">
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Position" FieldType="QUERY" FieldName="Query" />
+
+	<ConfigurationRequirements Occurrences="2000"
+		GroupName="Date Sequence(s)" FieldType="DATE_SEQ" FieldName="Date Sequence" />
+
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Reval Settings" FieldType="SAVE_SIM_DEF" FieldName="Save Sim Def"
+		Required="false" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Reval Settings" FieldType="REVAL_SERVICE" FieldName="Reval Service" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Reval Settings" FieldType="MARKET_DATA_TYPE" FieldName="Market Data" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Reval Settings" FieldType="SCEN_TEMPLATE" FieldName="Scenario Template"
+		Required="false" />
+
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Netting Settings" FieldType="ROLL_UP_NETTING" FieldName="Roll-Up Netting"
+		ExtraInfo="External Legal Entity" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Netting Settings" FieldType="NETTING_TYPE_BASIC" FieldName="Roll-Up Netting Type" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Netting Settings" FieldType="USER_DEFINED_CHECKBOX"
+		FieldName="Adjust Exposure to Expected" ToolTip="CONFIG_ADJUST_EXPOSURE_TO_EXPECTED" />
+
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="CSA Settings (Only Applicable to Party Agreement Netting Pool)"
+		FieldType="USER_DEFINED_CHECKBOX" FieldName="Apply CSA Adjustment to PFE"
+		ToolTip="CONFIG_APPLY_CSA_ADJUSTMENT" />
+
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="CVA Settings" FieldType="CALC_DIRECTION_METHOD" FieldName="CVA Calc Method" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="CVA Settings" FieldType="CREDIT_MAPPING" FieldName="Ex LE Credit Mapping" />
+
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="VaR Settings" FieldType="VAR_DEF" FieldName="VaR Definition" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="VaR Settings" FieldType="NUM_TRIALS" FieldName="Number of Trials"
+		ValueType="INTEGER" MinValue="1" MaxValue="2147483647" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="VaR Settings" FieldType="NUM_BUCKETS" FieldName="Number of Buckets"
+		ValueType="INTEGER" MinValue="3" MaxValue="2147483647" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="VaR Settings" FieldType="RANDOM_NUM_SEED" FieldName="Random Number Seed"
+		ValueType="INTEGER" MinValue="0" MaxValue="4294967295" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="VaR Settings" FieldType="DEAL_VALUATION_METHOD" FieldName="Deal Valuation Method" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="VaR Settings" FieldType="CORRELATION_MATRIX_TYPE"
+		FieldName="VaR Correlation Matrix" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="VaR Settings" FieldType="INC_SIGMA_DRIFT" FieldName="Lognormal Risk Factors" />
+
+</ConfigurationTemplate>

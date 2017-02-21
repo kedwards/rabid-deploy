@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DataRowConfiguration ReportTitle="PFE with Roll-Up">
+    <ColumnTitles>Scenario Date</ColumnTitles>   
+    <ColumnTitles>MTM</ColumnTitles>
+    <ColumnTitles>PFE</ColumnTitles>
+    <ColumnTitles>PFE (97.5%)</ColumnTitles>
+    <ColumnTitles>EE</ColumnTitles>
+    <ColumnVisible>true</ColumnVisible>   
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnTypes>STRING</ColumnTypes>   
+    <ColumnTypes>DOUBLE_0</ColumnTypes>
+    <ColumnTypes>DOUBLE_0</ColumnTypes>
+    <ColumnTypes>DOUBLE_0</ColumnTypes>
+    <ColumnTypes>DOUBLE_0</ColumnTypes>
+</DataRowConfiguration>

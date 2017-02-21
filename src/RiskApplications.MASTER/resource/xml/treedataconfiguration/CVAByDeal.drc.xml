@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DataRowConfiguration ReportTitle="Credit Valuation Adjustment by Deal">
+	<ColumnTitles>Deal Num</ColumnTitles>
+	<ColumnTitles>Int Lentity</ColumnTitles>
+	<ColumnTitles>Ext Lentity</ColumnTitles>
+	<ColumnTitles>Unadjusted PV</ColumnTitles>
+	<ColumnTitles>Credit Adj PV</ColumnTitles>
+	<ColumnTitles>CVA</ColumnTitles>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnTypes>INT</ColumnTypes>
+	<ColumnTypes>STRING</ColumnTypes>
+	<ColumnTypes>STRING</ColumnTypes>
+	<ColumnTypes>DOUBLE</ColumnTypes>
+	<ColumnTypes>DOUBLE</ColumnTypes>
+	<ColumnTypes>DOUBLE</ColumnTypes>
+</DataRowConfiguration>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DataRowConfiguration ReportTitle="Reconciliation Report">
+    <ColumnTitles>Deal Num</ColumnTitles>
+    <ColumnTitles>Param Seq Num</ColumnTitles>
+    <ColumnTitles>Profile Seq Num</ColumnTitles>
+    <ColumnTitles>Event Source</ColumnTitles>
+    <ColumnTitles>Ins Seq Num</ColumnTitles>
+    <ColumnTitles>Payment Date</ColumnTitles>
+    <ColumnTitles>Currency</ColumnTitles>
+    <ColumnTitles>Mtm(T) [a]</ColumnTitles>
+    <ColumnTitles>Mtm(T+1) [b]</ColumnTitles>
+    <ColumnTitles>Cost Of Carry</ColumnTitles>
+    <ColumnTitles>Comp Cost Of Carry [a-b]</ColumnTitles>
+    <ColumnTitles>Difference</ColumnTitles>
+    <ColumnTitles>Reconcile</ColumnTitles>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+</DataRowConfiguration>

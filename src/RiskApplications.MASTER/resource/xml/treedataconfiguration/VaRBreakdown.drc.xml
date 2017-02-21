@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DataRowConfiguration ReportTitle="VaR Breakdown">
+	<ColumnTitles>Id</ColumnTitles>
+	<ColumnTitles>Min MTM VaR (Loss)</ColumnTitles>
+	<ColumnTitles>Max MTM VaR (Profit)</ColumnTitles>
+	<ColumnTitles>Std Dev VaR</ColumnTitles>
+	<ColumnTitles>Mean VaR</ColumnTitles>
+	<ColumnTitles>Mode VaR</ColumnTitles>
+	<ColumnTitles>Median VaR</ColumnTitles>
+	<ColumnTitles>VaR Kurtosis</ColumnTitles>
+	<ColumnTitles>VaR Skew</ColumnTitles>
+	<ColumnTitles>VaR @ 90%</ColumnTitles>
+	<ColumnTitles>VaR @ 95%</ColumnTitles>
+	<ColumnTitles>VaR @ 98%</ColumnTitles>
+	<ColumnTitles>VaR @ 99%</ColumnTitles>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnTypes>STRING</ColumnTypes>
+	<ColumnTypes>DOUBLE</ColumnTypes>
+	<ColumnTypes>DOUBLE</ColumnTypes>
+	<ColumnTypes>DOUBLE</ColumnTypes>
+	<ColumnTypes>DOUBLE</ColumnTypes>
+	<ColumnTypes>DOUBLE</ColumnTypes>
+	<ColumnTypes>DOUBLE</ColumnTypes>
+	<ColumnTypes>DOUBLE</ColumnTypes>
+	<ColumnTypes>DOUBLE</ColumnTypes>
+	<ColumnTypes>DOUBLE</ColumnTypes>
+	<ColumnTypes>DOUBLE</ColumnTypes>
+	<ColumnTypes>DOUBLE</ColumnTypes>
+	<ColumnTypes>DOUBLE</ColumnTypes>
+</DataRowConfiguration>

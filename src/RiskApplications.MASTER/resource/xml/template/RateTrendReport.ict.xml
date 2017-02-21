@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ConfigurationTemplate ParentName="RateTrendReport"
+	Version="3">
+	<ConfigurationRequirements Occurrences="2000"
+		GroupName="Historical Period(s)" FieldType="DATE_SEQ" FieldName="Historical Period" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Index GridPoints" FieldType="USER_DEFINED_CHECKBOX"
+		FieldName="GridPoints as Row" ToolTip="CONFIG_GRIDPOINTS_AS_ROW" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Index GridPoints" FieldType="USER_DEFINED_CHECKBOX"
+		FieldName="Plot each Grid Point Sequence separately" ToolTip="CONFIG_PLOT_GRIDPOINTS_SEPARATELY" />
+	<ConfigurationRequirements Occurrences="2000"
+		GroupName="Index GridPoints" FieldType="GRIDPOINT_SEQ" FieldName="Index GridPoint(s)" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Advanced" FieldType="USER_DEFINED" FieldName="Decimal Places"
+		ValueType="INTEGER" MinValue="0" MaxValue="6" ToolTip="CONFIG_DECIMAL_PLACES" />
+</ConfigurationTemplate>

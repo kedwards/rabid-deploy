@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ConfigurationTemplate ParentName="EventDiaryReport"
+	Version="2">
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Position" FieldType="CONDITIONAL_QUERY" FieldName="Event Query" ExtraInfo="TranEvent"/>
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Position" FieldType="EVENT_TYPES" FieldName="Event Type(s)"
+		Required="false" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Position" FieldType="POSITION_REPRESENTATION" FieldName="Show Position from" />
+
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Dates" FieldType="START_DATE" FieldName="Start Date" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Dates" FieldType="END_DATE" FieldName="End Date" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Dates" FieldType="SORT_ASCENDING" FieldName="Ascending Date Order" />
+</ConfigurationTemplate>

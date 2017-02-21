@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ConfigurationTemplate ParentName="ResultReconciliation"
+	Version="1">
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Position" FieldType="QUERY" FieldName="Query" />
+
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Reval Settings" FieldType="SAVE_SIM_DEF" FieldName="Save Sim Def"
+		Required="false" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Reval Settings" FieldType="REVAL_SERVICE" FieldName="Reval Service" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Reval Settings" FieldType="MARKET_DATA_TYPE" FieldName="Market Data" />
+
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Reconciliation Result" FieldType="RECONCILIATION_RESULT"
+		FieldName="Result Type" />
+
+	<ConfigurationRequirements Occurrences="3"
+		GroupName="Advanced Settings" FieldType="GROUPING_HIERARCHY"
+		FieldName="Group Hierarchy" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Advanced Settings" FieldType="CONF_LEVEL" FieldName="Tolerance(%)"
+		ValueType="DOUBLE" MinValue="0" MaxValue="100" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Advanced Settings" FieldType="UNRECONCILED_RESULTS_ONLY"
+		FieldName="Display Unreconciled Results Only" />
+</ConfigurationTemplate>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Plugin Library="ra-extension-reconciliation-result.jar"
+	Package="com.olf.risk.service.plugin.extension.reconciliation.result"
+	Name="Reconciliation Result">
+	<ItemList
+		ClassName="com.olf.risk.service.plugin.extension.reconciliation.result.Delta" />
+	<ItemList
+		ClassName="com.olf.risk.service.plugin.extension.reconciliation.result.Vega" />
+	<ItemList
+		ClassName="com.olf.risk.service.plugin.extension.reconciliation.result.CostOfCarry" />
+	<ItemList
+		ClassName="com.olf.risk.service.plugin.extension.reconciliation.result.CrossGamma" />
+	<ItemList
+		ClassName="com.olf.risk.service.plugin.extension.reconciliation.result.CrossVegaGamma" />
+</Plugin>

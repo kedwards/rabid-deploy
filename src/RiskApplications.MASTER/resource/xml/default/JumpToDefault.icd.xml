@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SavedConfiguration>
+	<Configuration ParentName="JumpToDefault" Name="J2D: Default">
+		<ConfigurationFields FieldType="REVAL_SERVICE">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="-1" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<ConfigurationFields FieldType="MARKET_DATA_TYPE">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="-1" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<ConfigurationFields FieldType="CONF_LEVELS">
+			<ConfigurationValues Name="">
+				<ConfigurationValueItems Value="5.0" Key="" />
+			</ConfigurationValues>
+			<ConfigurationValues Name="">
+				<ConfigurationValueItems Value="40.5" Key="" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<Output>
+			<OutputTypes>CRYSTAL_VIEW</OutputTypes>
+		</Output>
+	</Configuration>
+</SavedConfiguration>

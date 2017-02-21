@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ConfigurationTemplate ParentName="MarketDataOutlier"
+	Version="3">
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Dates" FieldType="CURVE_DATE" FieldName="Day 1" Required="true" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Dates" FieldType="CURVE_DATE" FieldName="Day 2" Required="true" />
+
+	<ConfigurationRequirements Occurrences="2000"
+		GroupName="Index" FieldType="INDEX_RULE_SET" FieldName="Index Rule Set(s)"
+		Required="false" />
+
+	<ConfigurationRequirements Occurrences="2000"
+		GroupName="Volatility" FieldType="VOLATILITY_RULE_SET" FieldName="Volatility Rule Set(s)"
+		Required="false" />
+
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Tolerance" FieldType="COMPARISON_TYPE" FieldName="Comparison" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Tolerance" FieldType="CONF_LEVEL" FieldName="Tolerance(%)"
+		ValueType="DOUBLE" MinValue="0" ToolTip="CONFIG_TOLERANCE"/>
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Advanced" FieldType="USER_DEFINED" FieldName="Decimal Places"
+		ValueType="INTEGER" MinValue="0" MaxValue="6" ToolTip="CONFIG_DECIMAL_PLACES" />
+</ConfigurationTemplate>

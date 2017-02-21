@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SavedConfiguration>
+	<Configuration ParentName="CapVolCalibration" Name="CVC: Default">
+		<ConfigurationFields FieldType="MAX_ITER">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="250" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<ConfigurationFields FieldType="USER_DEFINED"
+			FieldName="Min Threshold">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="0" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<ConfigurationFields FieldType="USER_DEFINED"
+			FieldName="Max Threshold">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="150" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<ConfigurationFields FieldType="USER_DEFINED"
+			FieldName="Epsilon">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="0.001" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<Output>
+			<OutputTypes>CRYSTAL_VIEW</OutputTypes>
+		</Output>
+	</Configuration>
+</SavedConfiguration>

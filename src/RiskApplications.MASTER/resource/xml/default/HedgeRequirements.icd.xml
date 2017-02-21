@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SavedConfiguration>
+	<Configuration ParentName="HedgeRequirements" Name="HDG: Default">
+		<ConfigurationFields FieldType="REVAL_SERVICE">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="-1" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<ConfigurationFields FieldType="MARKET_DATA_TYPE">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="-1" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<Output>
+			<OutputTypes>CRYSTAL_VIEW</OutputTypes>
+		</Output>
+	</Configuration>
+</SavedConfiguration>

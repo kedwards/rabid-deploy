@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DataRowConfiguration ReportTitle="Delta Bucket Limit">
+	<ColumnTitles>Delta Bucket Limit</ColumnTitles>
+	<ColumnTitles>Delta</ColumnTitles>
+	<ColumnTitles>Delta Limit</ColumnTitles>
+	<ColumnTitles>Gamma</ColumnTitles>
+	<ColumnTitles>Gamma Limit</ColumnTitles>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnTypes>STRING</ColumnTypes>
+	<ColumnTypes>DOUBLE</ColumnTypes>
+	<ColumnTypes>DOUBLE</ColumnTypes>
+	<ColumnTypes>DOUBLE</ColumnTypes>
+	<ColumnTypes>DOUBLE</ColumnTypes>
+</DataRowConfiguration>

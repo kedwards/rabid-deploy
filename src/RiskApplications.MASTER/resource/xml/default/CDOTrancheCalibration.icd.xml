@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SavedConfiguration>
+	<Configuration ParentName="CDOTrancheCalibration" Name="CDO: Default">
+		<ConfigurationFields FieldType="USER_DEFINED"
+			FieldName="Delta Shift">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="0.0001" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<ConfigurationFields FieldType="USER_DEFINED"
+			FieldName="Error Tolerance">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="0.01" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<ConfigurationFields FieldType="USER_DEFINED"
+			FieldName="Maximum Iterations (NR)">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="10" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<ConfigurationFields FieldType="USER_DEFINED"
+			FieldName="Maximum Iterations (GS)">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="50" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<Output>
+			<OutputTypes>CRYSTAL_VIEW</OutputTypes>
+		</Output>
+	</Configuration>
+</SavedConfiguration>

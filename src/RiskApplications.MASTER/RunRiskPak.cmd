@@ -1,0 +1,2 @@
+"%RISKPAK_JRE_HOME%\bin\java" -Dolf.ads.pof.config.java="%OLF_BIN%\RiskApplications\riskpak-pof-config.xml" -Dolf.ads.configuration="%OLF_BIN%\ads\endur-config/client/java/ads.xml" -Dtangosol.coherence.cacheconfig="%OLF_BIN%\ads\endur-config/client/java/coherence-cache-config.xml" -Dtangosol.coherence.override="%OLF_BIN%\ads\endur-config/client/java/coherence.xml" -Dlog4j.configuration="%OLF_BIN%\ads\endur-config/client/java/log4j.xml" -Dorg.apache.commons.logging.LogFactory=com.olf.ads.logging.ADSLogFactory -jar RiskApplications\ra-riskpak.jar 
+

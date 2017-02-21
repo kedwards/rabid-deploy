@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DataRowConfiguration ReportTitle="Position Concentration">
+    <ColumnTitles>Position Concentration</ColumnTitles>
+    <ColumnTitles>Currency</ColumnTitles>
+    <ColumnTitles>MTM</ColumnTitles>
+    <ColumnTitles>BaseMTM</ColumnTitles>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnTypes>STRING</ColumnTypes>
+    <ColumnTypes>STRING</ColumnTypes>
+    <ColumnTypes>DOUBLE</ColumnTypes>
+    <ColumnTypes>DOUBLE</ColumnTypes>
+</DataRowConfiguration>

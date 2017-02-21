@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DataRowConfiguration ReportTitle="Portfolio Comparison">
+    <ColumnTitles>Group</ColumnTitles>
+    <ColumnTitles>Date</ColumnTitles>
+    <ColumnTitles>Portfolio MTM</ColumnTitles>
+    <ColumnTitles>Portfolio MTM(%)</ColumnTitles>
+    <ColumnTitles>Benchmark MTM</ColumnTitles>
+    <ColumnTitles>Benchmark MTM(%)</ColumnTitles>
+    <ColumnTitles>Difference MTM</ColumnTitles>
+    <ColumnTitles>Difference MTM(%)</ColumnTitles>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>false</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnTypes>STRING</ColumnTypes>
+    <ColumnTypes>INT</ColumnTypes>
+    <ColumnTypes>DOUBLE</ColumnTypes>
+    <ColumnTypes>DOUBLE</ColumnTypes>
+    <ColumnTypes>DOUBLE</ColumnTypes>
+    <ColumnTypes>DOUBLE</ColumnTypes>
+    <ColumnTypes>DOUBLE</ColumnTypes>
+    <ColumnTypes>DOUBLE</ColumnTypes>
+</DataRowConfiguration>

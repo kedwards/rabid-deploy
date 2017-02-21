@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Plugin Library="ra-report-economiccapital.jar"
+	Package="com.olf.risk.service.plugin.report.economiccapital" Name="Economic Capital">
+	<ItemList
+		ClassName="com.olf.risk.service.plugin.report.economiccapital.CashFlowAtRisk"
+		SupportedThroughVersion="1">
+		<Dependencies PackageName="UDSR" ItemName="MTMDetailTrials" />
+		<Dependencies PackageName="UDSR" ItemName="FlowLevelDetails" />
+	</ItemList>
+	<ItemList
+		ClassName="com.olf.risk.service.plugin.report.economiccapital.CreditVaRReport"
+		SupportedThroughVersion="1">
+		<Dependencies PackageName="Netting Basic" />
+		<Dependencies PackageName="UDSR" ItemName="NetMonteCarloVaRTrials" />
+		<Dependencies PackageName="UDSR" ItemName="SummaryGroupInfo" />
+	</ItemList>
+</Plugin>

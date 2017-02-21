@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DataRowConfiguration ReportTitle="Entered Trade Listing">
+    <ColumnTitles>Portfolio >> Ins Type >> Deal Num</ColumnTitles>
+    <ColumnTitles># Entered Trades</ColumnTitles>
+    <ColumnTitles>Reference</ColumnTitles>
+    <ColumnTitles>Trade Date</ColumnTitles>
+    <ColumnTitles>Input Date</ColumnTitles>
+    <ColumnTitles>Trader</ColumnTitles>
+    <ColumnTitles>Counterparty</ColumnTitles>
+    <ColumnTitles>Business Unit</ColumnTitles>
+    <ColumnTitles>Position</ColumnTitles>
+    <ColumnTitles>Unit</ColumnTitles>
+    <ColumnTitles>Ticker/Cusip/ISIN</ColumnTitles>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnTypes>STRING</ColumnTypes>
+    <ColumnTypes>INT</ColumnTypes>
+    <ColumnTypes>STRING</ColumnTypes>
+    <ColumnTypes>STRING</ColumnTypes>
+    <ColumnTypes>STRING</ColumnTypes>
+    <ColumnTypes>STRING</ColumnTypes>
+    <ColumnTypes>STRING</ColumnTypes> 
+    <ColumnTypes>STRING</ColumnTypes>
+    <ColumnTypes>DOUBLE</ColumnTypes>
+    <ColumnTypes>STRING</ColumnTypes>
+    <ColumnTypes>STRING</ColumnTypes>
+</DataRowConfiguration>

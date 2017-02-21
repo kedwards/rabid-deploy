@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Plugin Library="ra-report-stresstest.jar" Package="com.olf.risk.service.plugin.report.stresstest"
+	Name="Stress Testing">
+	<ItemList
+		ClassName="com.olf.risk.service.plugin.report.stresstest.CreateStressScenarios"
+		SupportedThroughVersion="1">
+	</ItemList>
+	<ItemList
+		ClassName="com.olf.risk.service.plugin.report.stresstest.EventStressTest"
+		SupportedThroughVersion="1" />
+	<ItemList
+		ClassName="com.olf.risk.service.plugin.report.stresstest.PvImpactReport"
+		SupportedThroughVersion="1">
+		<Dependencies PackageName="Shock Basic" />
+		<Dependencies PackageName="UDSR" ItemName="SummaryGroupInfo" />
+	</ItemList>
+	<ItemList
+		ClassName="com.olf.risk.service.plugin.report.stresstest.ShapeStressTest"
+		SupportedThroughVersion="1">
+		<Dependencies PackageName="Shock Basic" />
+		<Dependencies PackageName="UDSR" ItemName="SummaryGroupInfo" />
+	</ItemList>
+	<ItemList
+		ClassName="com.olf.risk.service.plugin.report.stresstest.StressTestMatrix"
+		SupportedThroughVersion="1">
+		<Dependencies PackageName="Shock Basic" />
+	</ItemList>
+</Plugin>

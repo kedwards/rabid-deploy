@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DataRowConfiguration ReportTitle="Broker Commission">
+	<ColumnTitles>Broker >> Portfolio</ColumnTitles>
+	<ColumnTitles>Position</ColumnTitles>
+	<ColumnTitles>Ccy</ColumnTitles>
+	<ColumnTitles>Fx Rate</ColumnTitles>
+	<ColumnTitles>Base Amount</ColumnTitles>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnTypes>STRING</ColumnTypes>
+	<ColumnTypes>DOUBLE_2</ColumnTypes>
+	<ColumnTypes>STRING</ColumnTypes>
+	<ColumnTypes>DOUBLE_4</ColumnTypes>
+	<ColumnTypes>DOUBLE_2</ColumnTypes>
+</DataRowConfiguration>

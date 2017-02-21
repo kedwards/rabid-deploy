@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DataRowConfiguration ReportTitle="Shape Stress Test">
+	<ColumnTitles>Id</ColumnTitles>
+	<ColumnTitles>Deal Num</ColumnTitles>
+	<ColumnTitles>Base MTM</ColumnTitles>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>false</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnTypes>STRING</ColumnTypes>
+	<ColumnTypes>INT</ColumnTypes>
+	<ColumnTypes>DOUBLE</ColumnTypes>
+</DataRowConfiguration>

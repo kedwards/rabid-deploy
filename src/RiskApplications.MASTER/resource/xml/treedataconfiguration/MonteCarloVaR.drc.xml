@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DataRowConfiguration ReportTitle="Monte Carlo VaR">
+	<ColumnTitles>Monte Carlo VaR</ColumnTitles>
+	<ColumnTitles>VaR @ 90%</ColumnTitles>
+	<ColumnTitles>VaR @ 95%</ColumnTitles>
+	<ColumnTitles>VaR @ 98%</ColumnTitles>
+	<ColumnTitles>VaR @ 99%</ColumnTitles>
+	<ColumnTitles>Num Trials</ColumnTitles>
+	<ColumnTitles>Min. Trial MTM</ColumnTitles>
+	<ColumnTitles>Max. Trial MTM</ColumnTitles>
+	<ColumnTitles>Std Dev.</ColumnTitles>
+	<ColumnTitles>Mean</ColumnTitles>
+	<ColumnTitles>Median</ColumnTitles>
+	<ColumnTitles>Mode</ColumnTitles>
+	<ColumnTitles>Kurtosis</ColumnTitles>
+	<ColumnTitles>Skew</ColumnTitles>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnTypes>STRING</ColumnTypes>
+	<ColumnTypes>DOUBLE</ColumnTypes>
+	<ColumnTypes>DOUBLE</ColumnTypes>
+	<ColumnTypes>DOUBLE</ColumnTypes>
+	<ColumnTypes>DOUBLE</ColumnTypes>
+	<ColumnTypes>INT</ColumnTypes>
+	<ColumnTypes>DOUBLE</ColumnTypes>
+	<ColumnTypes>DOUBLE</ColumnTypes>
+	<ColumnTypes>DOUBLE</ColumnTypes>
+	<ColumnTypes>DOUBLE</ColumnTypes>
+	<ColumnTypes>DOUBLE</ColumnTypes>
+	<ColumnTypes>DOUBLE</ColumnTypes>
+	<ColumnTypes>DOUBLE</ColumnTypes>
+	<ColumnTypes>DOUBLE</ColumnTypes>
+</DataRowConfiguration>

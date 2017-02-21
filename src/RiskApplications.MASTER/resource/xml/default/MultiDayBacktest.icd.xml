@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SavedConfiguration>
+	<Configuration ParentName="MultiDayBacktest" Name="MDB: Default">
+		<ConfigurationFields FieldType="START_DATE">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="-10d" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<ConfigurationFields FieldType="REVAL_SERVICE">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="-1" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<ConfigurationFields FieldType="SUM_GROUPS">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="5" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<ConfigurationFields FieldType="CONF_LEVEL">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="95.0" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<ConfigurationFields FieldType="PARAMETRIC_VAR_METHOD">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="0" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<ConfigurationFields FieldType="NUM_TRIALS">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="2000" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<ConfigurationFields FieldType="NUM_BUCKETS">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="50" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<ConfigurationFields FieldType="HOLDING_PERIOD">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="1d" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<ConfigurationFields FieldType="RANDOM_NUM_SEED">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="0" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<ConfigurationFields FieldType="DEAL_VALUATION_METHOD">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="0" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<ConfigurationFields FieldType="INC_SIGMA_DRIFT">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="1" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<ConfigurationFields FieldType="SIGNIFICANCE_LEVEL">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="1" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<ConfigurationFields FieldType="USER_DEFINED"
+			FieldName="Yellow Zone (%)">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="95.0" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<ConfigurationFields FieldType="USER_DEFINED"
+			FieldName="Red Zone (%)">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="99.99" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<Output>
+			<OutputTypes>CRYSTAL_VIEW</OutputTypes>
+		</Output>
+	</Configuration>
+</SavedConfiguration>

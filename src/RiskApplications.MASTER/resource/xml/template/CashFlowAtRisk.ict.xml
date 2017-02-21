@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ConfigurationTemplate ParentName="CashFlowAtRisk"
+	Version="3">
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Position" FieldType="QUERY" FieldName="Query" />
+
+	<ConfigurationRequirements Occurrences="2000"
+		GroupName="Date Sequence(s)" FieldType="DATE_SEQ" FieldName="Date Sequence" />
+
+	<ConfigurationRequirements Occurrences="2000"
+		GroupName="Filter Settings" FieldType="TRADE_RULE_SET" FieldName="Flow Filter(s)"
+		Required="false" />
+
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Reval Settings" FieldType="SAVE_SIM_DEF" FieldName="Save Sim Def"
+		Required="false" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Reval Settings" FieldType="REVAL_SERVICE" FieldName="Reval Service" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Reval Settings" FieldType="MARKET_DATA_TYPE" FieldName="Market Data" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Reval Settings" FieldType="SCEN_TEMPLATE" FieldName="Scenario Template"
+		Required="false" />
+
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="VaR Settings" FieldType="VAR_DEF" FieldName="VaR Definition" />
+	<ConfigurationRequirements Occurrences="2147483647"
+		MaxValue="2.0" GroupName="VaR Settings" FieldType="TRADE_GROUPING"
+		FieldName="Group Hierarchy" ExtraInfo="ForceHierarchy|NoCustomGroups" Required="false"/>
+
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="VaR Settings" FieldType="CONF_LEVEL" FieldName="Confidence Level(%)"
+		ValueType="DOUBLE" MinValue="0" MaxValue="100" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="VaR Settings" FieldType="NUM_TRIALS" FieldName="Number of Trials"
+		ValueType="INTEGER" MinValue="1" MaxValue="2147483647" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="VaR Settings" FieldType="RANDOM_NUM_SEED" FieldName="Random Number Seed"
+		ValueType="INTEGER" MinValue="0" MaxValue="4294967295" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="VaR Settings" FieldType="VAR_TIME_PERIOD" FieldName="VaR Time Period"
+		MinValue="0" />
+		
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Advanced Settings" FieldType="CURRENCY" FieldName="Currency" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Advanced Settings" FieldType="USER_DEFINED_YES_NO"
+		FieldName="Use Volumetric Index" ToolTip="CONFIG_USE_VOLUMETRIC_INDEX" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Advanced Settings" FieldType="END_DATE_TYPE" FieldName="Bucket End Date" />
+</ConfigurationTemplate>

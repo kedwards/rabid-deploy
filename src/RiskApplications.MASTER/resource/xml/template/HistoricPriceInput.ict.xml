@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ConfigurationTemplate ParentName="HistoricPriceInput"
+	Version="1">
+	<ConfigurationRequirements Occurrences="2000"
+		GroupName="Historical Period(s)" FieldType="DATE_SEQ" FieldName="Historical Period" />
+
+	<ConfigurationRequirements Occurrences="2000"
+		GroupName="Index" FieldType="INDEX_RULE_SET" FieldName="Index Rule Set(s)" />
+
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Advanced" FieldType="GRIDPOINT_FIELD_TYPE" FieldName="GridPoint Field" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Advanced" FieldType="GRIDPOINT_TYPES" FieldName="Bid/Mid/Offer" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Advanced" FieldType="CLOSING_DATA_TYPES" FieldName="Market Data" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Advanced" FieldType="USER_DEFINED" FieldName="Decimal Places"
+		ValueType="INTEGER" MinValue="0" MaxValue="6" ToolTip="CONFIG_DECIMAL_PLACES" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Advanced" FieldType="USER_DEFINED_CHECKBOX" FieldName="Plot Each 'Index' Separately"
+		ToolTip="CONFIG_PLOT_INDEX_SEPARATELY" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Advanced" FieldType="USER_DEFINED_CHECKBOX" FieldName="Plot Each 'Date' Separately"
+		ToolTip="CONFIG_PLOT_DATE_SEPARATELY" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Advanced" FieldType="USER_DEFINED_CHECKBOX"
+		FieldName="Plot Each 'Market Data' Type Separately" ToolTip="CONFIG_PLOT_MARKET_DATA_SEPARATELY" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Advanced" FieldType="USER_DEFINED_CHECKBOX" FieldName="Plot as Connected Points"
+		ToolTip="CONFIG_PLOT_CONNECTED_POINTS" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Advanced" FieldType="USER_DEFINED_CHECKBOX" FieldName="Plot Horizontal Axis as Date"
+		ToolTip="CONFIG_PLOT_HORIZONTAL_AXIS_DATE" />
+</ConfigurationTemplate>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DataRowConfiguration ReportTitle="VaR by Risk Type">
+    <ColumnTitles>Id</ColumnTitles>
+    <ColumnTitles>Overall</ColumnTitles>
+    <ColumnTitles>RiskType1</ColumnTitles>
+    <ColumnTitles>RiskType2</ColumnTitles>
+    <ColumnTitles>RiskType3</ColumnTitles>
+    <ColumnTitles>RiskType4</ColumnTitles>
+    <ColumnTitles>RiskType5</ColumnTitles>
+    <ColumnTitles>Exp Short Fall</ColumnTitles>
+    <ColumnTitles>Monte Carlo VaR</ColumnTitles>
+    <ColumnTitles>Base MTM</ColumnTitles>
+    <ColumnTitles>Component VaR</ColumnTitles>
+    <ColumnTitles>Incremental VaR</ColumnTitles>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>false</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>false</ColumnVisible>
+    <ColumnTypes>STRING</ColumnTypes>
+    <ColumnTypes>DOUBLE</ColumnTypes>
+    <ColumnTypes>DOUBLE</ColumnTypes>
+    <ColumnTypes>DOUBLE</ColumnTypes>
+    <ColumnTypes>DOUBLE</ColumnTypes>
+    <ColumnTypes>DOUBLE</ColumnTypes>
+    <ColumnTypes>DOUBLE</ColumnTypes>
+    <ColumnTypes>DOUBLE</ColumnTypes>
+    <ColumnTypes>DOUBLE</ColumnTypes>
+    <ColumnTypes>DOUBLE</ColumnTypes>
+    <ColumnTypes>DOUBLE</ColumnTypes>
+    <ColumnTypes>DOUBLE</ColumnTypes>
+</DataRowConfiguration>

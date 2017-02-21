@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DataRowConfiguration ReportTitle="Event Diary Report">
+    <ColumnTitles>Event Date >> Event Type >> Tran Num</ColumnTitles>
+    <ColumnTitles># Events</ColumnTitles>
+    <ColumnTitles>Event Status</ColumnTitles>
+    <ColumnTitles>Event Num</ColumnTitles>
+    <ColumnTitles>Toolset</ColumnTitles>
+    <ColumnTitles>Instrument</ColumnTitles>
+    <ColumnTitles>Counterparty</ColumnTitles>
+    <ColumnTitles>Internal Business Unit</ColumnTitles>
+    <ColumnTitles>Portfolio</ColumnTitles>
+    <ColumnTitles>Reference</ColumnTitles>
+    <ColumnTitles>Position</ColumnTitles>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnTypes>STRING</ColumnTypes>
+    <ColumnTypes>INT</ColumnTypes>
+    <ColumnTypes>STRING</ColumnTypes>
+    <ColumnTypes>STRING</ColumnTypes>
+    <ColumnTypes>STRING</ColumnTypes>
+    <ColumnTypes>STRING</ColumnTypes>
+    <ColumnTypes>STRING</ColumnTypes>
+    <ColumnTypes>STRING</ColumnTypes> 
+    <ColumnTypes>STRING</ColumnTypes>
+    <ColumnTypes>STRING</ColumnTypes>
+    <ColumnTypes>DOUBLE</ColumnTypes>
+</DataRowConfiguration>

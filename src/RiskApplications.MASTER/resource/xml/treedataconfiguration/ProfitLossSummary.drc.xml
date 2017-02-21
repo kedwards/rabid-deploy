@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DataRowConfiguration ReportTitle="Profit &amp; Loss Summary">
+    <ColumnTitles>Profit &amp; Loss Summary</ColumnTitles>
+    <ColumnTitles>MTM Yesterday</ColumnTitles>
+    <ColumnTitles>MTM Today</ColumnTitles>
+    <ColumnTitles>Yest Payments</ColumnTitles>
+    <ColumnTitles>Total P&amp;L Daily</ColumnTitles>
+    <ColumnTitles>Opening P&amp;L</ColumnTitles>
+    <ColumnTitles>New P&amp;L</ColumnTitles>
+    <ColumnTitles>MTD P&amp;L</ColumnTitles>
+    <ColumnTitles>YTD P&amp;L</ColumnTitles>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnTypes>STRING</ColumnTypes>
+    <ColumnTypes>DOUBLE</ColumnTypes>
+    <ColumnTypes>DOUBLE</ColumnTypes>
+    <ColumnTypes>DOUBLE</ColumnTypes>
+    <ColumnTypes>DOUBLE</ColumnTypes>
+    <ColumnTypes>DOUBLE</ColumnTypes>
+    <ColumnTypes>DOUBLE</ColumnTypes>
+    <ColumnTypes>DOUBLE</ColumnTypes>
+    <ColumnTypes>DOUBLE</ColumnTypes>
+</DataRowConfiguration>

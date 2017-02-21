@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DataRowConfiguration ReportTitle="CDO Tranche Calibration">
+    <ColumnTitles>Deal Num</ColumnTitles>
+    <ColumnTitles>Index Name</ColumnTitles>
+    <ColumnTitles>Series</ColumnTitles>
+    <ColumnTitles>Version</ColumnTitles>
+    <ColumnTitles>Maturity</ColumnTitles>
+    <ColumnTitles>Tranche</ColumnTitles>
+    <ColumnTitles>Upfront Payment</ColumnTitles>
+    <ColumnTitles>Spread</ColumnTitles>
+    <ColumnTitles>Calc. Correlation</ColumnTitles>
+    <ColumnTitles>Recovery Factor</ColumnTitles>
+    <ColumnTitles>Error (% Notnl)</ColumnTitles>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnTypes>INT</ColumnTypes>
+    <ColumnTypes>STRING</ColumnTypes>
+    <ColumnTypes>INT</ColumnTypes>
+    <ColumnTypes>INT</ColumnTypes>
+    <ColumnTypes>STRING</ColumnTypes>
+    <ColumnTypes>STRING</ColumnTypes>
+    <ColumnTypes>DOUBLE_4</ColumnTypes>
+    <ColumnTypes>DOUBLE_2</ColumnTypes>
+    <ColumnTypes>DOUBLE_4</ColumnTypes>
+    <ColumnTypes>DOUBLE_2</ColumnTypes>
+    <ColumnTypes>DOUBLE_4</ColumnTypes>
+</DataRowConfiguration>

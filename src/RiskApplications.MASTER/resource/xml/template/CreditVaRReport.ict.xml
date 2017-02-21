@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ConfigurationTemplate ParentName="CreditVaRReport"
+	Version="1">
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Position" FieldType="QUERY" FieldName="Query" />
+
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Reval Settings" FieldType="SAVE_SIM_DEF" FieldName="Save Sim Def"
+		Required="false" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Reval Settings" FieldType="REVAL_SERVICE" FieldName="Reval Service" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Reval Settings" FieldType="MARKET_DATA_TYPE" FieldName="Market Data" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Reval Settings" FieldType="SCEN_TEMPLATE" FieldName="Scenario Template"
+		Required="false" />
+
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Credit VaR Settings" FieldType="CREDIT_EVENT_SIMULATION"
+		FieldName="Credit Event Simulation" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Credit VaR Settings" FieldType="COUNTERPARTY_CORRELATIONS"
+		FieldName="Counterparty Correlation" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Credit VaR Settings" FieldType="RECOVERY_METHOD" FieldName="Recovery Method" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Credit VaR Settings" FieldType="USER_DEFINED" FieldName="Expected Recovery Rate (%)"
+		ValueType="DOUBLE" MinValue="0" MaxValue="100"
+		ToolTip="CONFIG_EXPECTED_RECOVERY_RATE" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Credit VaR Settings" FieldType="USER_DEFINED" FieldName="Std Dev of Recovery (%)"
+		ValueType="DOUBLE" MinValue="0" MaxValue="100" ToolTip="CONFIG_STD_DEV_RECOVERY" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Credit VaR Settings" FieldType="USER_DEFINED" FieldName="Number of Trials (Credit)"
+		ValueType="INTEGER" MinValue="1" MaxValue="2147483647" ToolTip="CONFIG_NUM_TRIALS" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Credit VaR Settings" FieldType="CONF_LEVEL" FieldName="Confidence Level(%)"
+		ValueType="DOUBLE" MinValue="0" MaxValue="100" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Credit VaR Settings" FieldType="MARKET_CREDIT_SIMULATION"
+		FieldName="Market/Credit Simulation" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Credit VaR Settings" FieldType="NETTING_TYPE" FieldName="Netting Type" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Credit VaR Settings" FieldType="DEFAULT_PROBABILITIES"
+		FieldName="Credit Rating Source" />
+
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Monte Carlo VaR Settings" FieldType="VAR_DEF" FieldName="VaR Definition" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Monte Carlo VaR Settings" FieldType="USER_DEFINED"
+		FieldName="Holding Period" ValueType="INTEGER" MinValue="1" MaxValue="2147483647"
+		ToolTip="CONFIG_HOLDING_PERIOD" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Monte Carlo VaR Settings" FieldType="RANDOM_NUM_SEED"
+		FieldName="Random Number Seed" ValueType="INTEGER" MinValue="0"
+		MaxValue="4294967295" Required="false" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Monte Carlo VaR Settings" FieldType="NUM_TRIALS" FieldName="Number of Trials"
+		ValueType="INTEGER" MinValue="1" MaxValue="2147483647" Required="false" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Monte Carlo VaR Settings" FieldType="INC_SIGMA_DRIFT"
+		FieldName="Lognormal Risk Factors" Required="false" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Monte Carlo VaR Settings" FieldType="DEAL_VALUATION_METHOD"
+		FieldName="Deal Valuation Method" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Monte Carlo VaR Settings" FieldType="CORRELATION_MATRIX_TYPE"
+		FieldName="VaR Correlation Matrix" />
+
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Results Settings" FieldType="NUM_BUCKETS" FieldName="Number of Buckets"
+		ValueType="INTEGER" MinValue="3" MaxValue="2147483647" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Results Settings" FieldType="USER_DEFINED_YES_NO"
+		FieldName="Include Zero Losses" ToolTip="CONFIG_INCLUDE_ZERO_LOSSES" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Results Settings" FieldType="USER_DEFINED_YES_NO"
+		FieldName="Compute Incr VaR" ToolTip="CONFIG_COMPUTE_INCR_VAR" />
+
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Debugging" FieldType="USER_DEFINED_YES_NO" FieldName="Debug"
+		ToolTip="CONFIG_DEBUG" />
+
+</ConfigurationTemplate>

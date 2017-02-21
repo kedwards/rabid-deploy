@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DataRowConfiguration ReportTitle="Delta Reconcilation">
+	<ColumnTitles>Index</ColumnTitles>
+	<ColumnTitles>Gpt Label</ColumnTitles>
+	<ColumnTitles>Sensitivity</ColumnTitles>
+	<ColumnTitles>Delta Shift</ColumnTitles>
+	<ColumnTitles>Gpt Input</ColumnTitles>
+	<ColumnTitles>Gpt Effective Input</ColumnTitles>
+	<ColumnTitles>Deal Num</ColumnTitles>
+	<ColumnTitles>Param Seq Num</ColumnTitles>
+	<ColumnTitles>Profile Seq Num</ColumnTitles>
+	<ColumnTitles>Mtm [a]</ColumnTitles>
+	<ColumnTitles>Mtm+ [b]</ColumnTitles>
+	<ColumnTitles>Mtm- [c]</ColumnTitles>
+	<ColumnTitles>Delta</ColumnTitles>
+	<ColumnTitles>Comp Delta [b-c]/2</ColumnTitles>
+	<ColumnTitles>Diff Delta</ColumnTitles>
+	<ColumnTitles>Gamma</ColumnTitles>
+	<ColumnTitles>Comp Gamma [b+c-2a]</ColumnTitles>
+	<ColumnTitles>Diff Gamma</ColumnTitles>
+	<ColumnTitles>Reconcile (Delta and Gamma)</ColumnTitles>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+</DataRowConfiguration>

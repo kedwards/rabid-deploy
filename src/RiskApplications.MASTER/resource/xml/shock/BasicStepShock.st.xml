@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ShockTemplate Name="BasicStepShock" GridpointSettings="true"
+	Version="1">
+	<ApplicableElements>Index</ApplicableElements>
+	<ApplicableElements>Volatility</ApplicableElements>
+	<ApplicableElements>Correlation</ApplicableElements>
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Shock Inputs" FieldType="SHOCK_METHOD" FieldName="Shock Method" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Shock Inputs" FieldType="USER_DEFINED" FieldName="Shock Value"
+		ValueType="DOUBLE" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Shock Inputs" FieldType="USER_DEFINED" FieldName="Step Size"
+		ValueType="DOUBLE" />
+</ShockTemplate>

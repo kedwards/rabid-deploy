@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DataRowConfiguration ReportTitle="Margin Exposure Report">
+    <ColumnTitles>Date</ColumnTitles>
+    <ColumnTitles>Julian Date</ColumnTitles>
+    <ColumnTitles>Base MTM</ColumnTitles>
+    <ColumnTitles>Exp. Margin Held/Posted</ColumnTitles>
+    <ColumnTitles>Margin Exposure</ColumnTitles>
+    <ColumnTitles>Margin at Risk</ColumnTitles>
+    <ColumnTitles>Cumulative MaR</ColumnTitles>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>false</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnTypes>STRING</ColumnTypes>
+    <ColumnTypes>INT</ColumnTypes>
+    <ColumnTypes>DOUBLE</ColumnTypes>
+    <ColumnTypes>DOUBLE</ColumnTypes>
+    <ColumnTypes>DOUBLE</ColumnTypes>
+    <ColumnTypes>DOUBLE</ColumnTypes>
+    <ColumnTypes>DOUBLE</ColumnTypes>
+</DataRowConfiguration>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DataRowConfiguration ReportTitle="Credit VaR Report">
+    <ColumnTitles>Credit VaR Report</ColumnTitles>
+    <ColumnTitles>Rating</ColumnTitles>
+    <ColumnTitles>Probability</ColumnTitles>
+    <ColumnTitles>Base Mtm</ColumnTitles>
+	<ColumnTitles>Loss</ColumnTitles>
+    <ColumnTitles>Expected Loss</ColumnTitles>
+    <ColumnTitles>Credit VaR</ColumnTitles>
+    <ColumnTitles>Expected SF</ColumnTitles>
+    <ColumnTitles>Incremental VaR</ColumnTitles>
+    <ColumnTitles># Trials</ColumnTitles>
+    <ColumnTitles>Min Loss</ColumnTitles>
+    <ColumnTitles>Max Loss</ColumnTitles>
+    <ColumnTitles>Std Dev</ColumnTitles>
+    <ColumnTitles>Median</ColumnTitles>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnTypes>STRING</ColumnTypes>
+    <ColumnTypes>STRING</ColumnTypes>
+    <ColumnTypes>STRING</ColumnTypes>
+    <ColumnTypes>DOUBLE</ColumnTypes>
+    <ColumnTypes>DOUBLE</ColumnTypes>
+    <ColumnTypes>DOUBLE</ColumnTypes>
+    <ColumnTypes>DOUBLE</ColumnTypes>
+    <ColumnTypes>DOUBLE</ColumnTypes>
+    <ColumnTypes>DOUBLE</ColumnTypes>
+    <ColumnTypes>INT</ColumnTypes>
+    <ColumnTypes>DOUBLE</ColumnTypes>
+    <ColumnTypes>DOUBLE</ColumnTypes>
+    <ColumnTypes>DOUBLE</ColumnTypes>
+    <ColumnTypes>DOUBLE</ColumnTypes>    
+</DataRowConfiguration>

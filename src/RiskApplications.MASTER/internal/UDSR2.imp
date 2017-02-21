@@ -1,0 +1,28 @@
+HDR,SIM_RES_CFG_MAP,result_config_group,result_type
+REC,SIM_RES_CFG_MAP,RiskPak,RP Netted Monte Carlo VaR Trials
+REC,SIM_RES_CFG_MAP,RiskPak,RP Credit Valuation Adj By Deal
+REC,SIM_RES_CFG_MAP,RiskPak,RP Credit Valuation Adj By Leg
+REC,SIM_RES_CFG_MAP,RiskPak,RP MTM Detail Trials
+REC,SIM_RES_CFG_MAP,Monte Carlo VaR Attributes,RP MTM Detail Trials
+#
+HDR,USER_RES_DEF,result_name,result_class,result_enumeration,requires_prior_results,processing_script,dw_user_table_name,active_result
+REC,USER_RES_DEF,RP Credit Valuation Adj By Leg,General,RISKPAK_RESULT_CVA_BY_LEG,No,CreditValuationAdjByLeg, ,Yes
+REC,USER_RES_DEF,RP Netted Monte Carlo VaR Trials,General,RISKPAK_RESULT_NET_MCV_TRIALS,No,NetMonteCarloVaRTrials, ,Yes
+REC,USER_RES_DEF,RP MTM Detail Trials,General,RISKPAK_RESULT_MTM_DETAIL_TRIALS,No,MTMDetailTrials, ,Yes
+# 
+HDR,USER_RES_DEPENDS,result_name,required_result_type
+REC,USER_RES_DEPENDS,RP Credit Valuation Adj By Leg,FX
+REC,USER_RES_DEPENDS,RP Credit Valuation Adj By Leg,MTM Detail
+REC,USER_RES_DEPENDS,RP Credit Valuation Adj By Leg,RP Lentity Credit Ratings
+REC,USER_RES_DEPENDS,RP Credit Valuation Adj By Leg,RP Summary Group Info
+REC,USER_RES_DEPENDS,RP Netted Monte Carlo VaR Trials,Base MTM
+REC,USER_RES_DEPENDS,RP Netted Monte Carlo VaR Trials,RP Summary Group Info
+REC,USER_RES_DEPENDS,RP Netted Monte Carlo VaR Trials,Monte Carlo VaR Trial MTMs
+REC,USER_RES_DEPENDS,RP MTM Detail Trials,Cashflow By Day
+REC,USER_RES_DEPENDS,RP MTM Detail Trials,FX
+REC,USER_RES_DEPENDS,RP MTM Detail Trials,MTM Detail
+REC,USER_RES_DEPENDS,RP MTM Detail Trials,Payment Date By Leg
+REC,USER_RES_DEPENDS,RP MTM Detail Trials,Period Start Date By Leg
+REC,USER_RES_DEPENDS,RP MTM Detail Trials,Period End Date By Leg
+REC,USER_RES_DEPENDS,RP MTM Detail Trials,RP Flow Level Details
+# 
