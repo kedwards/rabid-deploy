@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Plugin Library="ra-report-pnlanalysis.jar" Package="com.olf.risk.service.plugin.report.pnlanalysis"
+	Name="PNL Analysis">
+	<ItemList
+		ClassName="com.olf.risk.service.plugin.report.pnlanalysis.ProfitLossExplained"
+		SupportedThroughVersion="2" />
+	<ItemList
+		ClassName="com.olf.risk.service.plugin.report.pnlanalysis.ProfitLossSummary"
+		SupportedThroughVersion="2" />
+</Plugin>

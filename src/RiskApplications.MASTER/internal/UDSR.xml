@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Plugin Library="NULL" Package="riskapps.internal.udsr" Name="UDSR">
+	<ItemList ClassName="riskapps.internal.udsr.CashflowByDayTrials"
+		SupportedThroughVersion="1" />
+	<ItemList ClassName="riskapps.internal.udsr.CreditHedgeNotional"
+		SupportedThroughVersion="1" />
+	<ItemList ClassName="riskapps.internal.udsr.CreditValuationAdjByDeal"
+		SupportedThroughVersion="1">
+		<Dependencies PackageName="UDSR" ItemName="CreditValuationAdjByLeg" />
+	</ItemList>
+	<ItemList ClassName="riskapps.internal.udsr.CreditValuationAdjByLeg"
+		SupportedThroughVersion="1">
+		<Dependencies PackageName="UDSR" ItemName="LentityCreditRatings" />
+		<Dependencies PackageName="UDSR" ItemName="SummaryGroupInfo" />
+	</ItemList>
+	<ItemList ClassName="riskapps.internal.udsr.ExpectedShortfall"
+		SupportedThroughVersion="1" />
+	<ItemList ClassName="riskapps.internal.udsr.FlowLevelDetails"
+		SupportedThroughVersion="1" />
+	<ItemList ClassName="riskapps.internal.udsr.JumpToDefault"
+		SupportedThroughVersion="1" />
+	<ItemList ClassName="riskapps.internal.udsr.LegLevelDetails"
+		SupportedThroughVersion="1" />
+	<ItemList ClassName="riskapps.internal.udsr.LentityCreditRatings"
+		SupportedThroughVersion="1" />
+	<ItemList ClassName="riskapps.internal.udsr.MTMDetailTrials"
+		SupportedThroughVersion="1">
+		<Dependencies PackageName="UDSR" ItemName="FlowLevelDetails" />
+	</ItemList>
+	<ItemList ClassName="riskapps.internal.udsr.NetMonteCarloVaRTrials"
+		SupportedThroughVersion="1">
+		<Dependencies PackageName="UDSR" ItemName="SummaryGroupInfo" />
+	</ItemList>
+	<ItemList ClassName="riskapps.internal.udsr.ResetInfo"
+		SupportedThroughVersion="1" />
+	<ItemList ClassName="riskapps.internal.udsr.SummaryGroupInfo"
+		SupportedThroughVersion="1" />
+	<ItemList ClassName="riskapps.internal.udsr.TranLevelDetails"
+		SupportedThroughVersion="1" />
+</Plugin>

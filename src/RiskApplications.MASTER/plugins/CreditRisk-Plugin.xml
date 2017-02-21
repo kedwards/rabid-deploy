@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Plugin Library="ra-report-creditrisk.jar" Package="com.olf.risk.service.plugin.report.creditrisk"
+	Name="Credit Risk">
+	<ItemList
+		ClassName="com.olf.risk.service.plugin.report.creditrisk.CreditExposureSummary"
+		SupportedThroughVersion="1">
+		<Dependencies PackageName="Credit Risk" ItemName="PFEwithRollUp" />
+	</ItemList>
+	<ItemList
+		ClassName="com.olf.risk.service.plugin.report.creditrisk.CreditValuationAdjustment"
+		SupportedThroughVersion="1">
+		<Dependencies PackageName="Credit Risk" ItemName="PFEwithRollUp" />
+		<Dependencies PackageName="UDSR" ItemName="LentityCreditRatings" />
+	</ItemList>
+	<ItemList ClassName="com.olf.risk.service.plugin.report.creditrisk.CVAByDeal"
+		SupportedThroughVersion="1">
+		<Dependencies PackageName="UDSR" ItemName="CreditValuationAdjByDeal" />
+	</ItemList>
+	<ItemList ClassName="com.olf.risk.service.plugin.report.creditrisk.JumpToDefault"
+		SupportedThroughVersion="1">
+		<Dependencies PackageName="UDSR" ItemName="JumpToDefault" />
+	</ItemList>
+	<ItemList ClassName="com.olf.risk.service.plugin.report.creditrisk.PFEwithRollUp"
+		SupportedThroughVersion="1" />
+	<ItemList
+		ClassName="com.olf.risk.service.plugin.report.creditrisk.WalkForwardExposure"
+		SupportedThroughVersion="1">
+		<Dependencies PackageName="UDSR" ItemName="SummaryGroupInfo" />
+	</ItemList>
+</Plugin>

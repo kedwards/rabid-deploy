@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ConfigurationTemplate ParentName="CreditExposureSummary"
+	Version="1">
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Report Configuration" FieldType="SAVED_REPORT_CONFIG"
+		FieldName="Saved PFR Report" ExtraInfo="PFE with Roll-Up" />
+
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Date Settings" FieldType="CONDITIONAL_DATE" FieldName="Saved Date"
+		ExtraInfo="Use Saved Data" />
+
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Advanced Settings" FieldType="CREDIT_RATING_SOURCES"
+		FieldName="Credit Rating Source(s)" MaxValue="2" Required="false" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Advanced Settings" FieldType="MONITOR_CREDIT_LIMIT"
+		FieldName="Monitor Credit Limit" ExtraInfo="Exposure Definition" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Advanced Settings" FieldType="USER_DEFINED_CHECKBOX"
+		FieldName="Suppress Deal Level Details (If Available)" />
+</ConfigurationTemplate>

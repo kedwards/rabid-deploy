@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SavedConfiguration>
+	<Configuration ParentName="CreateStressScenarios" Name="CSS: Default">
+		<ConfigurationFields FieldType="SAVE_SIM_DEF">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="Stress Scenarios"
+					Key="" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<Output>
+			<OutputTypes>TABLE_VIEW</OutputTypes>
+		</Output>
+	</Configuration>
+</SavedConfiguration>

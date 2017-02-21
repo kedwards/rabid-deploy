@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ConfigurationTemplate ParentName="VaRDivergenceDetails"
+	Version="1">
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Position" FieldType="QUERY" FieldName="Query" MinValue="1" />
+
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Dates" FieldType="START_DATE" FieldName="Backtest Date" />
+
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Reval Settings" FieldType="SAVE_SIM_DEF" FieldName="Save Sim Def"
+		Required="false" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Reval Settings" FieldType="REVAL_SERVICE" FieldName="Reval Service" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Reval Settings" FieldType="SCEN_TEMPLATE" FieldName="Scenario Template"
+		Required="false" />
+
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="VaR Settings" FieldType="TIME_SERIES_ANALYZERS" FieldName="Time Series Config" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="VaR Settings" FieldType="VAR_DEF" FieldName="VaR Definition" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="VaR Settings" FieldType="SUM_GROUPS" FieldName="Summary Group(s)" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="VaR Settings" FieldType="CONF_LEVEL" FieldName="Confidence Level(%)"
+		ValueType="DOUBLE" MinValue="0" MaxValue="100" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="VaR Settings" FieldType="PARAMETRIC_VAR_METHOD" FieldName="Parametric VaR Method" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="VaR Settings" FieldType="TOP_N" FieldName="Top N" />
+</ConfigurationTemplate>

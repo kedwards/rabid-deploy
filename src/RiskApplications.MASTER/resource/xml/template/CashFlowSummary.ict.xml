@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ConfigurationTemplate ParentName="CashFlowSummary"
+	Version="1">
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Position" FieldType="QUERY" FieldName="Query" />
+
+	<ConfigurationRequirements Occurrences="1000"
+		GroupName="Date Buckets" FieldType="DATE_SEQ" FieldName="Date Buckets" />
+
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Reval Settings" FieldType="SAVE_SIM_DEF" FieldName="Save Sim Def"
+		Required="false" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Reval Settings" FieldType="REVAL_SERVICE" FieldName="Reval Service" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Reval Settings" FieldType="MARKET_DATA_TYPE" FieldName="Market Data" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Reval Settings" FieldType="SCEN_TEMPLATE" FieldName="Scenario Template"
+		Required="false" />
+
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Advanced" FieldType="CURRENCY" FieldName="Currency" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Advanced" FieldType="CASH_FLOW_TYPES" FieldName="Cash Flow(s)"
+		Required="false" />
+	<ConfigurationRequirements Occurrences="1"
+		MaxValue="1.0" GroupName="Advanced" FieldType="GROUPING_HIERARCHY"
+		FieldName="Summary Group(s)" Required="false" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Advanced" FieldType="USER_DEFINED_CHECKBOX" FieldName="Include Currency Breakdown"
+		ToolTip="CONFIG_INCLUDE_CURRENCY_BREAKDOWN" />
+
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Bank Balances" FieldType="BANK_BALANCES" FieldName="Instrument(s)" />
+
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Shock Scenario" FieldType="CURVE_SHOCKS" FieldName="Shock Scenario"
+		Required="false" />
+</ConfigurationTemplate>

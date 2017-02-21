@@ -519,7 +519,7 @@ do
                 cls
                 Write-Host 'Please wait while each server backup is processing ...'
                 $content = Get-IniContent $servers
-                $content["cnpldev"]["servers"].Split(",") | % {
+                $content["ra_deploy"]["cnpldev"].Split(",") | % {
                     $server = $_.ToUpper()
                     Write-Host backing up $server...
                     Rabid-Backup -Server $server
@@ -528,7 +528,7 @@ do
                 cls
                 Write-Host 'Please wait while each server deploy is processing...'
                 $content = Get-IniContent $servers
-                $content["cnpldev"]["servers"].Split(",") | % {
+                $content["ra_deploy"]["cnpldev"].Split(",") | % {
                     $server = $_.ToUpper()
                     Write-Host deploying binaries to $server...
                     Rabid-Deploy -Server $server

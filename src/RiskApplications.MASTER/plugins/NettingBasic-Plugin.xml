@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Plugin Library="ra-extension-netting-basic.jar"
+	Package="com.olf.risk.service.plugin.extension.netting.basic"
+	Name="Netting Basic">
+	<ItemList
+		ClassName="com.olf.risk.service.plugin.extension.netting.basic.Gross">
+		<Dependencies PackageName="Netting Basic" ItemName="Full" />
+	</ItemList>
+	<ItemList
+		ClassName="com.olf.risk.service.plugin.extension.netting.basic.Full" />
+</Plugin>

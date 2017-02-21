@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ConfigurationTemplate ParentName="BrokerCommission"
+	Version="1">
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Broker(s)" FieldType="BROKERS" FieldName="Broker(s)" />
+
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Dates" FieldType="START_DATE" FieldName="Start Date" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Dates" FieldType="END_DATE" FieldName="End Date" />
+</ConfigurationTemplate>

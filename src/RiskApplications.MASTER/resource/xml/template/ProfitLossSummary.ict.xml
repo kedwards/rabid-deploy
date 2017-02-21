@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ConfigurationTemplate ParentName="ProfitLossSummary"
+	Version="1">
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Position" FieldType="PORTFOLIOS" FieldName="Portfolio(s)" />
+
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Dates" FieldType="START_DATE" FieldName="Run Date" />
+
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Saved Simulation Settings" FieldType="SIM_RUN_TYPE"
+		FieldName="Saved Simulation Run Type" />
+</ConfigurationTemplate>

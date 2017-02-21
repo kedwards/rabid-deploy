@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Plugin Library="ra-report-liquiditygapanalysis.jar"
+	Package="com.olf.risk.service.plugin.report.liquiditygapanalysis" Name="Liquidity Gap Analysis">
+	<ItemList
+		ClassName="com.olf.risk.service.plugin.report.liquiditygapanalysis.BalanceSheetBasis"
+		SupportedThroughVersion="1">
+		<Dependencies PackageName="UDSR" ItemName="ResetInfo" />
+	</ItemList>
+	<ItemList
+		ClassName="com.olf.risk.service.plugin.report.liquiditygapanalysis.CashFlowSummary"
+		SupportedThroughVersion="1">
+		<Dependencies PackageName="UDSR" ItemName="SummaryGroupInfo" />
+	</ItemList>
+	<ItemList
+		ClassName="com.olf.risk.service.plugin.report.liquiditygapanalysis.DurationComparison"
+		SupportedThroughVersion="1" />
+	<ItemList
+		ClassName="com.olf.risk.service.plugin.report.liquiditygapanalysis.MarginExposureReport"
+		SupportedThroughVersion="1" />
+	<ItemList
+		ClassName="com.olf.risk.service.plugin.report.liquiditygapanalysis.PortfolioComparison"
+		SupportedThroughVersion="1" />
+</Plugin>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Plugin Library="ra-report-mpv.jar" Package="com.olf.risk.service.plugin.report.mpv"
+	Name="ICE Data MPV Service">
+	<ItemList ClassName="com.olf.risk.service.plugin.report.mpv.MPVPricePublishing"
+		SupportedThroughVersion="1" RunExclusive="true" />
+	<ItemList
+		ClassName="com.olf.risk.service.plugin.report.mpv.MPVVolatilityCalibration"
+		SupportedThroughVersion="1" RunExclusive="true" />
+</Plugin>

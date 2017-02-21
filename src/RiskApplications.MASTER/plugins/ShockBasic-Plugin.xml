@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Plugin Library="ra-extension-shock-basic.jar"
+	Package="com.olf.risk.service.plugin.extension.shock.basic" Name="Shock Basic">
+	<ItemList
+		ClassName="com.olf.risk.service.plugin.extension.shock.basic.BasicMapping" />
+	<ItemList
+		ClassName="com.olf.risk.service.plugin.extension.shock.basic.BasicShock" />
+	<ItemList
+		ClassName="com.olf.risk.service.plugin.extension.shock.basic.BasicStepShock">
+		<Dependencies PackageName="Shock Basic" ItemName="BasicShock" />
+	</ItemList>
+	<ItemList
+		ClassName="com.olf.risk.service.plugin.extension.shock.basic.DateShock" />
+	<ItemList
+		ClassName="com.olf.risk.service.plugin.extension.shock.basic.IndividualGptShock" />
+</Plugin>

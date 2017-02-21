@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Plugin Library="ra-report-calibration.jar" Package="com.olf.risk.service.plugin.report.calibration"
+	Name="Calibration">
+	<ItemList
+		ClassName="com.olf.risk.service.plugin.report.calibration.CapVolCalibration"
+		SupportedThroughVersion="1" />
+	<ItemList
+		ClassName="com.olf.risk.service.plugin.report.calibration.CDOTrancheCalibration"
+		SupportedThroughVersion="1" />
+	<ItemList
+		ClassName="com.olf.risk.service.plugin.report.calibration.VolatilityCalibration"
+		SupportedThroughVersion="1" />
+</Plugin>

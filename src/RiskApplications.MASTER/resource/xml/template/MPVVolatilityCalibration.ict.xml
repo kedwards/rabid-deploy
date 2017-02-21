@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ConfigurationTemplate ParentName="MPVVolatilityCalibration"
+	Version="1">
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Products" FieldType="USER_DEFINED_PICKLIST_MULTI"
+		FieldName="Product(s)"
+		ExtraInfo="user_mpv_configuration|product_code|product_name|instrument = 'Option' and spread_type = 'No'"
+		ToolTip="CONFIG_PRODUCTS" />
+
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Source File Path" FieldType="DIRECTORY_PATH"
+		FieldName="Option Premium Price Source File Path" Required="false" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Source File Path" FieldType="FILE_PATH"
+		FieldName="Single Premium Price Input File" Required="false"
+		ExtraInfo=".csv" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Source File Path" FieldType="USER_DEFINED_CHECKBOX"
+		FieldName="Use Single Input File" ToolTip="CONFIG_USE_SINGLE_INPUT_FILE" />
+
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Calibration Settings" FieldType="MAX_ITER" FieldName="Max Iterations"
+		ValueType="INTEGER" MinValue="0" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Calibration Settings" FieldType="TOLERANCE" FieldName="Epsilon"
+		ValueType="DOUBLE" MinValue="0.0" />
+
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Market Date Options" FieldType="CURVE_DATE" FieldName="Market Date" />
+
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Volatility Save Options" FieldType="VOLATILITY_DATA_SAVE_OPTIONS"
+		FieldName="Vol Data Save Options" />
+
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Verification" FieldType="USER_DEFINED_CHECKBOX" FieldName="Debug Log Messages?"
+		ToolTip="CONFIG_DEBUG" />
+
+	<OutputTypes>SAVE_DATA</OutputTypes>
+	<OutputTypes>TABLE_VIEW</OutputTypes>
+	<OutputTypes>EXCEL_CSV</OutputTypes>
+</ConfigurationTemplate>

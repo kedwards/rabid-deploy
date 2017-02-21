@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ConfigurationTemplate ParentName="CreateStressScenarios"
+	Version="1">
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Reval Settings" FieldType="SAVE_SIM_DEF" FieldName="Save Sim Def"
+		Required="true" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Reval Settings" FieldType="SCEN_TEMPLATE" FieldName="Scenario Template"
+		Required="false" />
+
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Advanced Settings" FieldType="VAR_DEF" FieldName="VaR Def" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Advanced Settings" FieldType="MOD_SOURCE_FILE" FieldName="Source File" />
+
+	<OutputTypes>SAVE_DATA</OutputTypes>
+	<OutputTypes>TABLE_VIEW</OutputTypes>
+	<OutputTypes>EXCEL_CSV</OutputTypes>
+</ConfigurationTemplate>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ConfigurationTemplate ParentName="CreditMarketLimit"
+	Version="1">
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Start/End Date" FieldType="START_DATE" FieldName="Start Date" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Start/End Date" FieldType="END_DATE" FieldName="End Date" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Advanced" FieldType="USE_SYSTEM_DATE" FieldName="Use System Date" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Advanced" FieldType="RISK_TYPE" FieldName="Risk Type" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Advanced" FieldType="RISK_LIMIT_REPORT_TYPE" FieldName="Limit Report Type" />
+</ConfigurationTemplate>

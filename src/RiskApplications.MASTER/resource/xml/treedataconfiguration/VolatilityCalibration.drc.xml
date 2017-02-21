@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DataRowConfiguration ReportTitle="Volatility Calibration">
+    <ColumnTitles>Deal Num</ColumnTitles>
+    <ColumnTitles>Toolset</ColumnTitles>
+    <ColumnTitles>Option Type</ColumnTitles>
+    <ColumnTitles>Strike Method</ColumnTitles>
+    <ColumnTitles>Expiration</ColumnTitles>
+    <ColumnTitles>Maturity</ColumnTitles>
+    <ColumnTitles>Notional</ColumnTitles>
+    <ColumnTitles>Strike</ColumnTitles>
+    <ColumnTitles>Market Vol</ColumnTitles>
+    <ColumnTitles>Market PV</ColumnTitles>
+    <ColumnTitles>Model PV</ColumnTitles>
+    <ColumnTitles>Objective Error</ColumnTitles>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnTypes>INT</ColumnTypes>
+    <ColumnTypes>STRING</ColumnTypes>
+    <ColumnTypes>STRING</ColumnTypes>
+    <ColumnTypes>STRING</ColumnTypes>
+    <ColumnTypes>STRING</ColumnTypes>
+    <ColumnTypes>STRING</ColumnTypes>
+    <ColumnTypes>DOUBLE_0</ColumnTypes>
+    <ColumnTypes>DOUBLE_4</ColumnTypes>
+    <ColumnTypes>DOUBLE_6</ColumnTypes>
+    <ColumnTypes>DOUBLE_0</ColumnTypes>
+    <ColumnTypes>DOUBLE_0</ColumnTypes>
+    <ColumnTypes>DOUBLE_0</ColumnTypes>
+</DataRowConfiguration>

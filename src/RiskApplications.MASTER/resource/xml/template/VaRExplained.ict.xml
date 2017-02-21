@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ConfigurationTemplate ParentName="VaRExplained"
+	Version="1">
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Position" FieldType="QUERY" FieldName="Query" />
+
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Dates" FieldType="START_DATE" FieldName="Day 1" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Dates" FieldType="END_DATE" FieldName="Day 2" />
+
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Reval Settings" FieldType="SAVE_SIM_DEF" FieldName="Save Sim Def"
+		Required="false" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Reval Settings" FieldType="REVAL_SERVICE" FieldName="Reval Service" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Reval Settings" FieldType="MARKET_DATA_TYPE" FieldName="Market Data" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Reval Settings" FieldType="SCEN_TEMPLATE" FieldName="Scenario Template"
+		Required="false" />
+
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="VaR Settings" FieldType="VAR_METHOD" FieldName="VaR Method" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="VaR Settings" FieldType="VAR_DEF" FieldName="VaR Definition" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="VaR Settings" FieldType="SUM_GROUPS" FieldName="Summary Group(s)" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="VaR Settings" FieldType="CONF_LEVEL" FieldName="Confidence Level(%)"
+		ValueType="DOUBLE" MinValue="0" MaxValue="100" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="VaR Settings" FieldType="CORRELATION_MATRIX_TYPE"
+		FieldName="VaR Correlation Matrix" />
+
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Parametric VaR Settings" FieldType="PARAMETRIC_VAR_METHOD"
+		FieldName="Parametric VaR Method" />
+
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Monte Carlo VaR Settings" FieldType="NUM_TRIALS" FieldName="Number of Trials"
+		ValueType="INTEGER" MinValue="1" MaxValue="2147483647" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Monte Carlo VaR Settings" FieldType="NUM_BUCKETS"
+		FieldName="Number of Buckets" ValueType="INTEGER" MinValue="3"
+		MaxValue="2147483647" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Monte Carlo VaR Settings" FieldType="RANDOM_NUM_SEED"
+		FieldName="Random Number Seed" ValueType="INTEGER" MinValue="0"
+		MaxValue="4294967295" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Monte Carlo VaR Settings" FieldType="DEAL_VALUATION_METHOD"
+		FieldName="Deal Valuation Method" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Monte Carlo VaR Settings" FieldType="INC_SIGMA_DRIFT"
+		FieldName="Lognormal Risk Factors" />
+</ConfigurationTemplate>

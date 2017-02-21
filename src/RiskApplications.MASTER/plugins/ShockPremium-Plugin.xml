@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Plugin Library="ra-extension-shock-premium.jar"
+	Package="com.olf.risk.service.plugin.extension.shock.premium" Name="Shock Premium">
+	<ItemList
+		ClassName="com.olf.risk.service.plugin.extension.shock.premium.PredictiveShock" />
+	<ItemList
+		ClassName="com.olf.risk.service.plugin.extension.shock.premium.StandardDeviation" />
+</Plugin>

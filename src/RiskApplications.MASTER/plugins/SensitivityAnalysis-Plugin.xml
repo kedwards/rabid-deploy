@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Plugin Library="ra-report-sensitivityanalysis.jar"
+	Package="com.olf.risk.service.plugin.report.sensitivityanalysis" Name="Sensitivity Analysis">
+	<ItemList
+		ClassName="com.olf.risk.service.plugin.report.sensitivityanalysis.CurrentPosition"
+		SupportedThroughVersion="1" />
+	<ItemList
+		ClassName="com.olf.risk.service.plugin.report.sensitivityanalysis.DeltaBucketLimit"
+		SupportedThroughVersion="1">
+		<Dependencies PackageName="UDSR" ItemName="SummaryGroupInfo" />
+	</ItemList>
+	<ItemList
+		ClassName="com.olf.risk.service.plugin.report.sensitivityanalysis.GreeksReport"
+		SupportedThroughVersion="2">
+		<Dependencies PackageName="Shock Basic" />
+	</ItemList>
+	<ItemList
+		ClassName="com.olf.risk.service.plugin.report.sensitivityanalysis.HedgeReport"
+		SupportedThroughVersion="1" />
+	<ItemList
+		ClassName="com.olf.risk.service.plugin.report.sensitivityanalysis.KeyRateDuration"
+		SupportedThroughVersion="1">
+		<Dependencies PackageName="UDSR" ItemName="SummaryGroupInfo" />
+	</ItemList>
+	<ItemList
+		ClassName="com.olf.risk.service.plugin.report.sensitivityanalysis.PositionConcentration"
+		SupportedThroughVersion="2" />
+	<ItemList
+		ClassName="com.olf.risk.service.plugin.report.sensitivityanalysis.PV01MaturityBucket"
+		SupportedThroughVersion="1">
+		<Dependencies PackageName="Shock Basic" />
+		<Dependencies PackageName="UDSR" ItemName="SummaryGroupInfo" />
+	</ItemList>
+	<ItemList
+		ClassName="com.olf.risk.service.plugin.report.sensitivityanalysis.ResultReconciliation"
+		SupportedThroughVersion="1">
+		<Dependencies PackageName="Reconciliation Result" />
+	</ItemList>
+	<ItemList
+		ClassName="com.olf.risk.service.plugin.report.sensitivityanalysis.VegaBucketLimit"
+		SupportedThroughVersion="1">
+		<Dependencies PackageName="UDSR" ItemName="SummaryGroupInfo" />
+	</ItemList>
+</Plugin>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DataRowConfiguration ReportTitle="Credit/Market Limit">
+    <ColumnTitles>Exp Line ID</ColumnTitles>
+    <ColumnTitles>Deal Num</ColumnTitles>
+    <ColumnTitles>Limit Id</ColumnTitles>
+    <ColumnTitles>Limit</ColumnTitles>
+    <ColumnTitles>Usage</ColumnTitles>
+    <ColumnTitles>Deal Exposure</ColumnTitles>
+   	<ColumnTitles>Description</ColumnTitles> 
+    <ColumnTitles>Counterparty</ColumnTitles>
+    <ColumnTitles>User Name</ColumnTitles>
+    <ColumnTitles>Status</ColumnTitles>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>false</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>false</ColumnVisible>
+    <ColumnVisible>false</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>false</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnTypes>INT</ColumnTypes>
+    <ColumnTypes>INT</ColumnTypes>
+    <ColumnTypes>INT</ColumnTypes>
+    <ColumnTypes>DOUBLE</ColumnTypes>
+    <ColumnTypes>STRING</ColumnTypes>
+    <ColumnTypes>STRING</ColumnTypes>
+    <ColumnTypes>STRING</ColumnTypes>
+    <ColumnTypes>STRING</ColumnTypes>
+    <ColumnTypes>STRING</ColumnTypes>
+    <ColumnTypes>STRING</ColumnTypes>
+</DataRowConfiguration>

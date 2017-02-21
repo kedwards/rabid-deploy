@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ConfigurationTemplate ParentName="VolatilityCalibration"
+	Version="3">
+
+	<ConfigurationRequirements Occurrences="2000"
+		GroupName="Calibration Details" FieldType="CALIBRATION_CRITERIA"
+		FieldName="Calibration Criteria" />
+
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Calibration Settings" FieldType="CALIBRATION_OBJECTIVE"
+		FieldName="Objective Function" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Calibration Settings" FieldType="USER_DEFINED" FieldName="Perturbation"
+		ValueType="DOUBLE" MinValue="0.0" ToolTip="CONFIG_PERTURBATION" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Calibration Settings" FieldType="USER_DEFINED" FieldName="Reset Perturbation"
+		ValueType="DOUBLE" MinValue="0.0" ToolTip="CONFIG_RESET_PERTURBATION" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Calibration Settings" FieldType="MAX_ITER" FieldName="Max Iterations"
+		ValueType="INTEGER" MinValue="0" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Calibration Settings" FieldType="USER_DEFINED" FieldName="Reset Iterations"
+		ValueType="INTEGER" MinValue="0" ToolTip="CONFIG_RESET_ITERATIONS" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Calibration Settings" FieldType="USER_DEFINED" FieldName="Stop Reset Iterations"
+		ValueType="INTEGER" MinValue="0" ToolTip="CONFIG_STOP_RESET_ITERATIONS" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Calibration Settings" FieldType="USER_DEFINED" FieldName="Epsilon (Total Error)"
+		ValueType="DOUBLE" MinValue="0.0" ToolTip="CONFIG_EPSILON_ERROR" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Calibration Settings" FieldType="USER_DEFINED"
+		FieldName="Epsilon (Algorithm Convergence)" ValueType="DOUBLE"
+		MinValue="0.0" ToolTip="CONFIG_EPSILON_CONVERGENCE" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Calibration Settings" FieldType="RANDOM_NUM_SEED"
+		FieldName="Random Number Seed" ValueType="INTEGER" MinValue="0"
+		MaxValue="4294967295" />
+
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Volatility Options (Loading)" FieldType="CURVE_DATE"
+		FieldName="Curve Date" Required="true" />
+
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Volatility Options (Saving)" FieldType="VOLATILITY_DATA_SAVE_OPTIONS"
+		FieldName="Vol Data Save Options" Required="true" />
+
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Validation Settings" FieldType="VALIDATION_SETTINGS"
+		FieldName="Generate Validation Data" />
+</ConfigurationTemplate>

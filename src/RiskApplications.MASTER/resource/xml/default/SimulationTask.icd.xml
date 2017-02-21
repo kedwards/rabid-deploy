@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SavedConfiguration>
+	<Configuration ParentName="SimulationTask" Name="SIM: Default">
+		<ConfigurationFields FieldType="CLEAR_CACHE">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="1" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<ConfigurationFields FieldType="CURRENCY">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="0" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<ConfigurationFields FieldType="RUN_TYPE">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="7" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<ConfigurationFields FieldType="PRIOR_RUN_TYPE">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="1" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<ConfigurationFields FieldType="REVAL_SERVICE">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="-1" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<ConfigurationFields FieldType="MARKET_DATA_TYPE">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="-1" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<Output>
+			<OutputTypes>TABLE_VIEW</OutputTypes>
+		</Output>
+	</Configuration>
+</SavedConfiguration>

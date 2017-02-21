@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DataRowConfiguration ReportTitle="Jump To Default">
+	<ColumnTitles>Group</ColumnTitles>
+	<ColumnTitles>Sector</ColumnTitles>
+	<ColumnTitles>Rating</ColumnTitles>
+	<ColumnTitles>MTM</ColumnTitles>
+	<ColumnTitles>Currency</ColumnTitles>
+	<ColumnTitles>Base MTM</ColumnTitles>
+	<ColumnTitles>Recovery 1</ColumnTitles>
+	<ColumnTitles>Recovery 2</ColumnTitles>
+	<ColumnTitles>Market Recovery</ColumnTitles>
+	<ColumnTitles>Limit</ColumnTitles>
+	<ColumnTitles>Available/Excess</ColumnTitles>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>false</ColumnVisible>
+	<ColumnVisible>false</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnTypes>STRING</ColumnTypes>
+	<ColumnTypes>STRING</ColumnTypes>
+	<ColumnTypes>STRING</ColumnTypes>
+	<ColumnTypes>DOUBLE</ColumnTypes>
+	<ColumnTypes>STRING</ColumnTypes>
+	<ColumnTypes>DOUBLE</ColumnTypes>
+	<ColumnTypes>DOUBLE</ColumnTypes>
+	<ColumnTypes>DOUBLE</ColumnTypes>
+	<ColumnTypes>DOUBLE</ColumnTypes>
+	<ColumnTypes>DOUBLE</ColumnTypes>
+	<ColumnTypes>DOUBLE</ColumnTypes>
+</DataRowConfiguration>

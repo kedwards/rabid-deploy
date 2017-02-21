@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ConfigurationTemplate ParentName="MPVPricePublishing"
+	Version="1">
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Products" FieldType="USER_DEFINED_PICKLIST_MULTI"
+		FieldName="Product(s)" ExtraInfo="user_mpv_configuration|product_code|product_name"
+		ToolTip="CONFIG_PRODUCTS" />
+
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Market Date Options" FieldType="CURVE_DATE" FieldName="Market Date"
+		Required="true" />
+
+	<OutputTypes>EXCEL_CSV</OutputTypes>
+	<OutputTypes>SAVE_DATA</OutputTypes>
+	<OutputTypes>TABLE_VIEW</OutputTypes>
+</ConfigurationTemplate>

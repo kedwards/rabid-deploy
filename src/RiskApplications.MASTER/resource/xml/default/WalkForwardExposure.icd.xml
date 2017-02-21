@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SavedConfiguration>
+	<Configuration ParentName="WalkForwardExposure" Name="PFR: Default">
+		<ConfigurationFields FieldType="DATE_SEQ">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="0m" Key="Start" />
+				<ConfigurationValueItems Value="12m" Key="End" />
+				<ConfigurationValueItems Value="1m" Key="Increment" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<ConfigurationFields FieldType="REVAL_SERVICE">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="-1" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<ConfigurationFields FieldType="MARKET_DATA_TYPE">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="-1" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<ConfigurationFields FieldType="EXPOSURE_METRIC">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="142" Key="Result Type" />
+				<ConfigurationValueItems Value="deal_num"
+					Key="Deal Column" />
+				<ConfigurationValueItems Value="142"
+					Key="Result Column" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<Output>
+			<OutputTypes>CRYSTAL_VIEW</OutputTypes>
+		</Output>
+	</Configuration>
+</SavedConfiguration>

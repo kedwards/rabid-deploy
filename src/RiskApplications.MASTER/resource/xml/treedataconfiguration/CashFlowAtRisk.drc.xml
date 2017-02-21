@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DataRowConfiguration ReportTitle="Cash Flow at Risk">
+    <ColumnTitles>Cash Flow At Risk</ColumnTitles>
+    <ColumnTitles>Base MTM</ColumnTitles>
+    <ColumnTitles>Cash Flow at Risk</ColumnTitles>
+    <ColumnTitles>Cash Flow</ColumnTitles>
+    <ColumnTitles>Cumulative Cash Flow</ColumnTitles>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnTypes>STRING</ColumnTypes>
+    <ColumnTypes>DOUBLE</ColumnTypes>
+    <ColumnTypes>DOUBLE</ColumnTypes>
+    <ColumnTypes>DOUBLE</ColumnTypes>
+    <ColumnTypes>DOUBLE</ColumnTypes>
+</DataRowConfiguration>

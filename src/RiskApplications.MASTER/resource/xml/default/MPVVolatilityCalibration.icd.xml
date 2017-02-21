@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SavedConfiguration>
+	<Configuration ParentName="MPVVolatilityCalibration"
+		Name="MVC: Default">
+		<ConfigurationFields FieldType="MAX_ITER"
+			FieldName="Max Iterations">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="999" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<ConfigurationFields FieldType="TOLERANCE"
+			FieldName="Epsilon">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="0.001" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<ConfigurationFields FieldType="VOLATILITY_DATA_SAVE_OPTIONS"
+			FieldName="Vol Data Save Options">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="0" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<Output includeTimeStamp="true" includeDateStamp="true"
+			FileName="MVC_Report">
+			<OutputTypes>EXCEL_CSV</OutputTypes>
+		</Output>
+	</Configuration>
+</SavedConfiguration>

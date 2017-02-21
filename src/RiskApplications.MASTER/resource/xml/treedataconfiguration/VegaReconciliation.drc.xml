@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DataRowConfiguration ReportTitle="Vega Reconciliation">
+    <ColumnTitles>Volatility</ColumnTitles>
+    <ColumnTitles>Vega Method</ColumnTitles>
+    <ColumnTitles>Dimension</ColumnTitles>
+    <ColumnTitles>Gpt Label</ColumnTitles>
+    <ColumnTitles>Input</ColumnTitles>
+    <ColumnTitles>Vega Shift</ColumnTitles>
+    <ColumnTitles>Deal Num</ColumnTitles>
+    <ColumnTitles>Param Seq Num</ColumnTitles>
+    <ColumnTitles>Profile Seq Num</ColumnTitles>
+    <ColumnTitles>Mtm [a]</ColumnTitles>
+    <ColumnTitles>Mtm+ [b]</ColumnTitles>
+    <ColumnTitles>Mtm- [c]</ColumnTitles>
+    <ColumnTitles>Vega</ColumnTitles>
+    <ColumnTitles>Comp Vega [b-c]/2</ColumnTitles>
+    <ColumnTitles>Diff Vega</ColumnTitles>
+    <ColumnTitles>Gamma</ColumnTitles>
+    <ColumnTitles>Comp Gamma [b+c-2a]</ColumnTitles>
+    <ColumnTitles>Diff Gamma</ColumnTitles>
+    <ColumnTitles>Reconcile (Vega and Gamma)</ColumnTitles>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+</DataRowConfiguration>

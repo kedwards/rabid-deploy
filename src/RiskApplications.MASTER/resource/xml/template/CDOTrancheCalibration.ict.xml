@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ConfigurationTemplate ParentName="CDOTrancheCalibration"
+	Version="1">
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Position" FieldType="QUERY" FieldName="Query" />
+
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Calibration Settings" FieldType="USER_DEFINED" FieldName="Delta Shift"
+		ValueType="DOUBLE" MinValue="0.0" MaxValue="1.0" ToolTip="CONFIG_DELTA_SHIFT" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Calibration Settings" FieldType="USER_DEFINED" FieldName="Error Tolerance"
+		ValueType="DOUBLE" MinValue="0.0" ToolTip="CONFIG_ERROR_TOLERANCE" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Calibration Settings" FieldType="USER_DEFINED" FieldName="Maximum Iterations (NR)"
+		ValueType="INTEGER" MinValue="0.0" ToolTip="CONFIG_MAX_ITER_NR" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Calibration Settings" FieldType="USER_DEFINED" FieldName="Maximum Iterations (GS)"
+		ValueType="INTEGER" MinValue="0.0" ToolTip="CONFIG_MAX_ITER_GS" />
+</ConfigurationTemplate>

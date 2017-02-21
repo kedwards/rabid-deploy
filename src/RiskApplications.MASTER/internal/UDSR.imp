@@ -1,0 +1,78 @@
+HDR,SIM_RESULT_ATTR,res_attr_name,data_type,min_value,max_value,pick_list_table_name,pick_list_col_name,user_table_name,user_table_col_name,pick_list_id,multi_select_flag
+REC,SIM_RESULT_ATTR,Recovery Rates,String, , , , , , ,0,0
+REC,SIM_RESULT_ATTR,Exposure Definition,String, , , , , , ,0,0 
+REC,SIM_RESULT_ATTR,Netting Type,String, , , , , , ,0,0 
+REC,SIM_RESULT_ATTR,Sum Groups,String, , , , , , ,0,0 
+REC,SIM_RESULT_ATTR,Reverse PFE,String, , , , , , ,0,0
+REC,SIM_RESULT_ATTR,Credit Annex,String, , , , , , ,0,0 
+REC,SIM_RESULT_ATTR,Credit Mapping,String, , , , , , ,0,0 
+REC,SIM_RESULT_ATTR,Rating Group,String, , , , , , ,0,0
+REC,SIM_RESULT_ATTR,Use Discounting,String, , , , , , ,0,0
+REC,SIM_RESULT_ATTR,Use Volumetric Index,String, , , , , , ,0,0
+REC,SIM_RESULT_ATTR,Adjust Money Market,String, , , , , , ,0,0
+REC,SIM_RESULT_ATTR,Break Out IMF SDR Components,String, , , , , , ,0,0
+REC,SIM_RESULT_ATTR,IMF SDR Currency Name,String, , , , , , ,0,0
+REC,SIM_RESULT_ATTR,IMF SDR Currency Units Curve,String, , , , , , ,0,0
+REC,SIM_RESULT_ATTR,Use Payment Date,String, , , , , , ,0,0
+REC,SIM_RESULT_ATTR,Date Sequence(s),String, , , , , , ,0,0
+REC,SIM_RESULT_ATTR,Result Detail Directory,String, , , , , , ,0,0
+#
+HDR,SIM_RES_CFG,result_config_group,attribute,value
+REC,SIM_RES_CFG,RiskPak,Recovery Rates, 
+REC,SIM_RES_CFG,RiskPak,Exposure Definition, 
+REC,SIM_RES_CFG,RiskPak,Netting Type, 
+REC,SIM_RES_CFG,RiskPak,Sum Groups, 
+REC,SIM_RES_CFG,RiskPak,Reverse PFE,  
+REC,SIM_RES_CFG,RiskPak,Credit Annex,  
+REC,SIM_RES_CFG,RiskPak,Credit Mapping,  
+REC,SIM_RES_CFG,RiskPak,Rating Group,
+REC,SIM_RES_CFG,RiskPak,Use Discounting, 
+REC,SIM_RES_CFG,RiskPak,Use Volumetric Index, 
+REC,SIM_RES_CFG,RiskPak,Adjust Money Market,
+REC,SIM_RES_CFG,RiskPak,Break Out IMF SDR Components,
+REC,SIM_RES_CFG,RiskPak,IMF SDR Currency Name,
+REC,SIM_RES_CFG,RiskPak,IMF SDR Currency Units Curve,
+REC,SIM_RES_CFG,RiskPak,Use Payment Date,
+REC,SIM_RES_CFG,RiskPak,Date Sequence(s),
+REC,SIM_RES_CFG,RiskPak,Result Detail Directory,
+# 
+HDR,SIM_RES_CFG_MAP,result_config_group,result_type
+REC,SIM_RES_CFG_MAP,RiskPak,RP Cashflow By Day Trials
+REC,SIM_RES_CFG_MAP,Monte Carlo VaR Attributes,RP Cashflow By Day Trials
+REC,SIM_RES_CFG_MAP,Monte Carlo VaR Attributes,RP Expected Shortfall
+REC,SIM_RES_CFG_MAP,RiskPak,RP Jump To Default
+REC,SIM_RES_CFG_MAP,RiskPak,RP Reset Info
+REC,SIM_RES_CFG_MAP,RiskPak,RP Tran Level Details
+REC,SIM_RES_CFG_MAP,RiskPak,RP Leg Level Details
+REC,SIM_RES_CFG_MAP,RiskPak,RP Flow Level Details
+#
+HDR,USER_RES_DEF,result_name,result_class,result_enumeration,requires_prior_results,processing_script,dw_user_table_name,active_result
+REC,USER_RES_DEF,RP Cashflow By Day Trials,General,RISKPAK_RESULT_CASHFLOW_BY_DAY_TRIALS,No,CashflowByDayTrials, ,Yes
+REC,USER_RES_DEF,RP Credit Hedge Notional,General,RISKPAK_RESULT_CREDIT_HEDGE_NOTIONAL,No,CreditHedgeNotional, ,Yes
+REC,USER_RES_DEF,RP Expected Shortfall,General,RISKPAK_RESULT_EXPECTED_SHORTFALL,No,ExpectedShortfall, ,Yes
+REC,USER_RES_DEF,RP Jump To Default,General,RISKPAK_RESULT_JUMP_TO_DEFAULT,No,JumpToDefault, ,Yes
+REC,USER_RES_DEF,RP Lentity Credit Ratings,General,RISKPAK_RESULT_LENTITY_CREDIT_RATINGS,No,LentityCreditRatings, ,Yes
+REC,USER_RES_DEF,RP Reset Info,General,RISKPAK_RESULT_RESET_INFO,No,ResetInfo, ,Yes
+REC,USER_RES_DEF,RP Summary Group Info,General,RISKPAK_RESULT_SUMMARY_GROUP_INFO,No,SummaryGroupInfo, ,Yes
+REC,USER_RES_DEF,RP Tran Level Details,General,RISKPAK_RESULT_TRAN_LEVEL_DETAILS,No,TranLevelDetails, ,Yes
+REC,USER_RES_DEF,RP Leg Level Details,General,RISKPAK_RESULT_LEG_LEVEL_DETAILS,No,LegLevelDetails, ,Yes
+REC,USER_RES_DEF,RP Flow Level Details,General,RISKPAK_RESULT_CASHFLOW_LEVEL_DETAILS,No,FlowLevelDetails, ,Yes
+# 
+HDR,USER_RES_DEPENDS,result_name,required_result_type
+REC,USER_RES_DEPENDS,RP Cashflow By Day Trials,Cashflow By Day
+REC,USER_RES_DEPENDS,RP Credit Hedge Notional,Tran Gpt Delta
+REC,USER_RES_DEPENDS,RP Expected Shortfall,Monte Carlo VaR
+REC,USER_RES_DEPENDS,RP Expected Shortfall,Monte Carlo VaR Trial MTMs
+REC,USER_RES_DEPENDS,RP Jump To Default,Base MTM
+REC,USER_RES_DEPENDS,RP Jump To Default,Current Notional Result
+REC,USER_RES_DEPENDS,RP Jump To Default,MTM
+REC,USER_RES_DEPENDS,RP Reset Info,Base MTM
+REC,USER_RES_DEPENDS,RP Reset Info,Current Notional Result
+REC,USER_RES_DEPENDS,RP Reset Info,MTM
+REC,USER_RES_DEPENDS,RP Reset Info,FX
+REC,USER_RES_DEPENDS,RP Reset Info,Cashflow By Day
+#
+HDR,USER_EXTS_DEF,ext_name,ext_class,processing_script_id,ext_active
+REC,USER_EXTS_DEF,Lentity Pair,VaR Summary Group,riskapps.internal.sumgroup.LentityPairGroup,Yes
+REC,USER_EXTS_DEF,Party Agreement,VaR Summary Group,riskapps.internal.sumgroup.PartyAgreementGroup,Yes
+# 

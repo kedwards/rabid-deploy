@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DataRowConfiguration ReportTitle="VaR Explained">
+    <ColumnTitles>Scenario Name</ColumnTitles>
+    <ColumnTitles>Scenario VaR</ColumnTitles>
+    <ColumnTitles>VaR Breakdown</ColumnTitles>
+    <ColumnTitles>VaR Diff</ColumnTitles>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnTypes>STRING</ColumnTypes>
+    <ColumnTypes>DOUBLE_0</ColumnTypes>
+    <ColumnTypes>STRING</ColumnTypes>
+    <ColumnTypes>DOUBLE_0</ColumnTypes>
+</DataRowConfiguration>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SavedConfiguration>
+	<Configuration ParentName="MarketDataOutlier" Name="MDO: Default">
+		<ConfigurationFields FieldType="CURVE_DATE"
+			FieldName="Day 1">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="-1d" Key="Date" />
+				<ConfigurationValueItems Value="1" Key="Dataset" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<ConfigurationFields FieldType="CURVE_DATE"
+			FieldName="Day 2">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="0d" Key="Date" />
+				<ConfigurationValueItems Value="1" Key="Dataset" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<ConfigurationFields FieldType="COMPARISON_TYPE">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="3" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<ConfigurationFields FieldType="CONF_LEVEL">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="10.0" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<ConfigurationFields FieldType="USER_DEFINED"
+			FieldName="Decimal Places">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="4" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<Output>
+			<OutputTypes>CRYSTAL_VIEW</OutputTypes>
+		</Output>
+	</Configuration>
+</SavedConfiguration>

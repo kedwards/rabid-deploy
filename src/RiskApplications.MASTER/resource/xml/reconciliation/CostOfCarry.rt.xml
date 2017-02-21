@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ReconciliationTemplate Name="CostOfCarry"
+	Version="1">
+	<ApplicableResults>18</ApplicableResults>
+	<ConfigurationRequirements Occurrences="1" GroupName="Advanced"
+		FieldType="ROLL_MARKET_DATA" FieldName="Roll Market Data" />
+</ReconciliationTemplate>

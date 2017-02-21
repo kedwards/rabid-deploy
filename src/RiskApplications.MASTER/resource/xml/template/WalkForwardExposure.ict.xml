@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ConfigurationTemplate ParentName="WalkForwardExposure"
+	Version="1">
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Position" FieldType="QUERY" FieldName="Query" />
+
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Date Sequence(s)" FieldType="USER_DEFINED_CHECKBOX"
+		FieldName="No Calculation Beyond Deal Maturity" />
+	<ConfigurationRequirements Occurrences="2000"
+		GroupName="Date Sequence(s)" FieldType="DATE_SEQ" FieldName="Date Sequence" />
+
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Reval Settings" FieldType="SAVE_SIM_DEF" FieldName="Save Sim Def"
+		Required="false" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Reval Settings" FieldType="REVAL_SERVICE" FieldName="Reval Service" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Reval Settings" FieldType="MARKET_DATA_TYPE" FieldName="Market Data" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Reval Settings" FieldType="SCEN_TEMPLATE" FieldName="Scenario Template"
+		Required="false" />
+
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Advanced Settings" FieldType="CREDIT_LIQUIDITY" FieldName="Risk Type" />
+	<ConfigurationRequirements Occurrences="2147483647" MaxValue="5"
+		GroupName="Advanced Settings" FieldType="EXPOSURE_METRIC" FieldName="Exposure Metric(s)" />
+
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Netting Settings" FieldType="ROLL_UP_NETTING_BASIC"
+		FieldName="Roll-Up Netting" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Netting Settings" FieldType="NETTING_TYPE_BASIC" FieldName="Roll-Up Netting Type" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Netting Settings" FieldType="USER_DEFINED_YES_NO"
+		FieldName="Show Netting Pool Details" />
+
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="CSA Settings (Only Applicable to Party Agreement Netting Pool)"
+		FieldType="USER_DEFINED_CHECKBOX" FieldName="Apply CSA Adjustment"
+		ToolTip="CONFIG_APPLY_CSA_ADJUSTMENT" />
+
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Shock Scenarios" FieldType="CURVE_SHOCKS" FieldName="Shock Scenario(s)"
+		Required="false" />
+
+	<ConfigurationRequirements Occurrences="2147483647"
+		GroupName="Credit Rating Shocks" FieldType="CREDIT_SHOCKS" FieldName="Credit Rating Shock(s)"
+		Required="false" />
+</ConfigurationTemplate>

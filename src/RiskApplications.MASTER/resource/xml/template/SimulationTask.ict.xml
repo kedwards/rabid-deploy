@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ConfigurationTemplate ParentName="SimulationTask"
+	Version="1">
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Position" FieldType="QUERY" FieldName="Query" />
+
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Reval Settings" FieldType="SIM_DEF" FieldName="Sim Definition" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Reval Settings" FieldType="CLEAR_CACHE" FieldName="Clear Cache" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Reval Settings" FieldType="CURRENCY" FieldName="Currency" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Reval Settings" FieldType="RUN_TYPE" FieldName="Run Type" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Reval Settings" FieldType="PRIOR_RUN_TYPE" FieldName="Prior Run Type" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Reval Settings" FieldType="MARKET_DATA_TYPE" FieldName="Market Data" />
+	<ConfigurationRequirements Occurrences="1"
+		GroupName="Reval Settings" FieldType="REVAL_SERVICE" FieldName="Reval Service" />
+		
+	<OutputTypes>SAVE_DATA</OutputTypes>
+	<OutputTypes>TABLE_VIEW</OutputTypes>
+</ConfigurationTemplate>

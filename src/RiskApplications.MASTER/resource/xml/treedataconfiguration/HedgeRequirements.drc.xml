@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DataRowConfiguration ReportTitle="Hedge Requirements">
+    <ColumnTitles>Hedge Requirements</ColumnTitles>
+    <ColumnTitles>Input</ColumnTitles>
+    <ColumnTitles>Rate</ColumnTitles>
+    <ColumnTitles>BPV</ColumnTitles>
+    <ColumnTitles>Delta</ColumnTitles>
+    <ColumnTitles>Hedge</ColumnTitles>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnVisible>true</ColumnVisible>
+    <ColumnTypes>STRING</ColumnTypes>
+    <ColumnTypes>DOUBLE</ColumnTypes>
+    <ColumnTypes>DOUBLE</ColumnTypes>
+    <ColumnTypes>DOUBLE</ColumnTypes>
+    <ColumnTypes>DOUBLE</ColumnTypes>
+    <ColumnTypes>DOUBLE</ColumnTypes>
+  </DataRowConfiguration>

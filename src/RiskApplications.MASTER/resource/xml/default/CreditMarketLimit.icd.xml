@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SavedConfiguration>
+	<Configuration ParentName="CreditMarketLimit" Name="CML: Default">
+		<ConfigurationFields FieldType="START_DATE">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="-1d" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<ConfigurationFields FieldType="END_DATE">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="0d" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<Output>
+			<OutputTypes>CRYSTAL_VIEW</OutputTypes>
+		</Output>
+	</Configuration>
+</SavedConfiguration>

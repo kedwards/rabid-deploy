@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SavedConfiguration>
+	<Configuration ParentName="EventDiaryReport"
+		Name="EDR: Default">
+		<ConfigurationFields FieldType="START_DATE">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="0d" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<ConfigurationFields FieldType="END_DATE">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="0d" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<ConfigurationFields FieldType="SORT_ASCENDING">
+			<ConfigurationValues>
+				<ConfigurationValueItems Value="0" />
+			</ConfigurationValues>
+		</ConfigurationFields>
+		<Output>
+			<OutputTypes>CRYSTAL_VIEW</OutputTypes>
+		</Output>
+	</Configuration>
+</SavedConfiguration>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DataRowConfiguration ReportTitle="Credit Valuation Adjustment">
+	<ColumnTitles>Ext Lentity</ColumnTitles>
+	<ColumnTitles>Julian Date</ColumnTitles>
+	<ColumnTitles>Base MTM</ColumnTitles>
+	<ColumnTitles>EE</ColumnTitles>
+	<ColumnTitles>q</ColumnTitles>
+	<ColumnTitles>LGD</ColumnTitles>
+	<ColumnTitles>CVA</ColumnTitles>
+	<ColumnTitles>Neg EE</ColumnTitles>
+	<ColumnTitles>q (self)</ColumnTitles>
+	<ColumnTitles>LGD (self)</ColumnTitles>
+	<ColumnTitles>DVA</ColumnTitles>
+	<ColumnTitles>CVA Running Total</ColumnTitles>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>false</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnVisible>false</ColumnVisible>
+	<ColumnVisible>false</ColumnVisible>
+	<ColumnVisible>false</ColumnVisible>
+	<ColumnVisible>false</ColumnVisible>
+	<ColumnVisible>true</ColumnVisible>
+	<ColumnTypes>STRING</ColumnTypes>
+	<ColumnTypes>INT</ColumnTypes>
+	<ColumnTypes>DOUBLE_0</ColumnTypes>
+	<ColumnTypes>DOUBLE_0</ColumnTypes>
+	<ColumnTypes>DOUBLE_4</ColumnTypes>
+	<ColumnTypes>DOUBLE_2</ColumnTypes>
+	<ColumnTypes>DOUBLE_0</ColumnTypes>
+	<ColumnTypes>DOUBLE_0</ColumnTypes>
+	<ColumnTypes>DOUBLE_4</ColumnTypes>
+	<ColumnTypes>DOUBLE_2</ColumnTypes>
+	<ColumnTypes>DOUBLE_0</ColumnTypes>
+	<ColumnTypes>DOUBLE_0</ColumnTypes>
+</DataRowConfiguration>
